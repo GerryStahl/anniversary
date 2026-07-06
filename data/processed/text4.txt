@@ -1,0 +1,2 @@
+PKL + JSON, embeddings, clustering results
+Log everything to PKL/JSON only via functions in src/metadata_store.py, so you never have to chase sync issues

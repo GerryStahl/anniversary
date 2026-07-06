@@ -1,0 +1,1 @@
+reusable scripts: ingest.py, summarize.py, categorize.py, embed.py, cluster.py, analyze.py
