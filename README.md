@@ -1,9 +1,19 @@
 anniversary
 ===========
 
-Utilities for ingesting ijCSCL PDFs, extracting metadata and full text, generating two
-families of summaries, classifying articles, and preparing vector representations for later
-clustering analysis.
+This project supports the 20th anniversary of the "International Journal of
+Computer-Supported Collaborative Learning" (ijCSCL), covering 2006-2025.
+Its goal is to analyze longitudinal journal trends by clustering summaries of
+published articles.
+
+The Anniversary Project provides utilities for:
+- ingesting ijCSCL PDFs,
+- extracting metadata and full text,
+- identifying editorial articles,
+- generating two families of summaries,
+- classifying articles,
+- preparing vector representations (semantic embeddings) of the summaries,
+- performing clustering analysis of summary vectors.
 
 Quick start
 -----------
@@ -55,10 +65,20 @@ Workflow
 
 ### Ingestion
 
+Current data status:
+
+- 235 PDFs for 2006-2015 were ingested in early July.
+- PDFs for 2016-2025 are pending download from the Springer site.
+- Editorial articles were manually identified (usually `article_number=0` and
+  author = journal editor).
+
 `src/ingest.py` discovers PDFs, extracts full text with PyMuPDF, and infers title and author
 metadata from first-page layout cues.
 
 ### Ollama summaries
+
+These summaries are computationally slow; only a few were generated with
+`llama3.1:8b` running locally.
 
 Generate or refresh one summary:
 
@@ -75,6 +95,9 @@ python -c "from src.summarize import summarize_store; summarize_store(model='lla
 These populate `summary_ollama`.
 
 ### Claude Haiku summaries
+
+For 2006-2015, 235 PDFs were summarized by Claude Haiku in early July at an
+approximate cost of $4.
 
 Generate Claude summaries and persist them back to the store:
 
@@ -96,7 +119,7 @@ This writes `reports/summary_comparison.csv` with both summaries and a diff scor
 
 ### Categorization
 
-Articles are classified into:
+Articles are currently classified with an Ollama model into:
 
 - `a`: design of collaboration
 - `b`: design of technology to support learning
@@ -113,22 +136,46 @@ PYTHONPATH=$PWD python -m src.categorize_all_and_build_csv
 
 This updates `category` and refreshes `reports/articles.csv`.
 
+### Embed Claude Haiku summaries
+
+Use `embed_texts.py` to generate semantic vectors for `summary_haiku`:
+
+```bash
+python -c "from src.embed_texts import embed_corpus_field; print(embed_corpus_field(field='summary_haiku', embedding_field='embedding_haiku_summary', model_name='all-MiniLM-L6-v2'))"
+```
+
+### Cluster Haiku summaries
+
+Use `cluster_vectors.py` helpers (or `run_vector_pipeline.py`) to cluster
+all
+`embedding_haiku_summary` vectors, with `k > 4` (for example, `k=17`).
+
+```bash
+python -c "from src.run_vector_pipeline import run_embedding_and_clustering; print(run_embedding_and_clustering(source_field='summary_haiku', embedding_field='embedding_haiku_summary', cluster_field='cluster_haiku_summary', model_name='all-MiniLM-L6-v2', k=17))"
+```
+
+### Analyze clusters for trends in the journal over the years
+
+Regenerate `reports/cluster_haiku_summary.csv`, then compare cluster labels
+with category, summary, year, and editorial flags for trend analysis.
+
+
 Vector pipeline
 ---------------
 
-Three modules support embedding and clustering preparation:
+Three modules support embedding and clustering workflows:
 
 - `src/embed_texts.py`: builds corpora from canonical fields and stores embeddings
 - `src/cluster_vectors.py`: loads vectors, scores candidate `k`, and clusters matrices
 - `src/run_vector_pipeline.py`: orchestrates embedding + clustering for one source field
 
-Supported source fields are typically:
+Typical source fields include:
 
 - `fulltext`
 - `summary_ollama`
 - `summary_haiku`
 
-Typical target fields are:
+Typical target fields include:
 
 - `embedding_fulltext`, `cluster_fulltext`
 - `embedding_ollama_summary`, `cluster_ollama_summary`
@@ -165,7 +212,7 @@ Reports and outputs
 - `data/processed/ijcscl.json`: JSON mirror without `fulltext` or embedding vectors
 - `reports/articles.csv`: metadata, categories, and both summary columns
 - `reports/cluster_haiku_summary.csv`: cluster labels, editorial flags, and metadata for all articles
-- `reports/summary_comparison.csv`: side-by-side Ollama/Claude comparison
+- `reports/summary_comparison.csv`: side-by-side Ollama vs. Claude comparison
 - `reports/categories.csv`: volume/category extract
 - `reports/volume_category_counts.png`: category counts by volume plot
 
