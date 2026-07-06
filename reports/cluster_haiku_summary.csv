@@ -1,35 +1,35 @@
 Cluster,Editorial,Category,Volume,Issue,Article_Number,Authors,Title
-13,editorial,e,1,1,,Gerry Stahl & Friedrich Hesse,ijCSCL—a journal for research in CSCL
-11,,e,1,1,1,Andrea Kienle & Martin Wessner,"The CSCL community in its ﬁrst decade: development, continuity, connectivity"
+13,editorial,e,1,1,0,Gerry Stahl & Friedrich Hesse,ijCSCL—a journal for research in CSCL
+11,,f,1,1,1,Andrea Kienle & Martin Wessner,"The CSCL community in its ﬁrst decade: development, continuity, connectivity"
 3,,a,1,1,2,Chris Jones & Lone Dirckinck<Holmfeld & Berner Lindstro¨m,"A relational, indirect, meso-level approach to CSCL design in the next decade"
 16,,d,1,1,3,Eddy Y.C. Lee & Carol K.K. Chan & Jan van Aalst,Students assessing their own collaborative knowledge building
-12,,e,1,1,4,Jochen Rick & Mark Guzdial,Situating CoWeb: a scholarship of application
+12,,b,1,1,4,Jochen Rick & Mark Guzdial,Situating CoWeb: a scholarship of application
 2,,b,1,1,5,Hugo Fuks & Mariano Pimentel & Carlos Jose´ Pereira de Lucena,R-U-Typing-2-Me? Evolving a chat tool to increase understanding in learning activities
 2,,c,1,1,6,Rupert Wegerif,A dialogic understanding of the relationship between CSCL and teaching thinking skills
-13,editorial,e,1,2,,Gerry Stahl & Friedrich Hesse,"Building knowledge in the classroom, building knowledge in the CSCL community"
-2,,e,1,2,1,Hans Christian Arnseth & Sten Ludvigsen,Approaching institutional contexts: Systemic versus dialogic research in CSCL
+13,editorial,e,1,2,0,Gerry Stahl & Friedrich Hesse,"Building knowledge in the classroom, building knowledge in the CSCL community"
+2,,f,1,2,1,Hans Christian Arnseth & Sten Ludvigsen,Approaching institutional contexts: Systemic versus dialogic research in CSCL
 3,,b,1,2,2,Yael Kali,Collaborative knowledge building using the Design Principles Database
 2,,c,1,2,3,Joyce Yukawa,Co-reﬂection in online learning: Collaborative critical thinking as narrative
 16,,a,1,2,4,Jun Oshima & Ritsuko Oshima & Isao Murayama & Shigenori Inagaki & Makiko Takenaka & Tomokazu Yamamoto & Etsuji Yamaguchi & Hayashi Nakayama,Knowledge-building activity structures in Japanese elementary science pedagogy
 13,,b,1,2,5,Jacques Lonchamp,"Supporting synchronous collaborative learning: A generic, multi-dimensional model"
-16,,e,1,2,6,Eddy Y.C. Lee & Carol K.K. Chan & Jan van Aalst,ERRATUM Students assessing their own collaborative knowledge building
-13,editorial,e,1,3,,Gerry Stahl & Friedrich Hesse,EDITORIAL Focusing on participation in group meaning making
+16,,c,1,2,6,Eddy Y.C. Lee & Carol K.K. Chan & Jan van Aalst,ERRATUM Students assessing their own collaborative knowledge building
+13,editorial,e,1,3,0,Gerry Stahl & Friedrich Hesse,EDITORIAL Focusing on participation in group meaning making
 3,,b,1,3,1,making: A research agenda for CSCL Daniel D. Suthers,Technology affordances for intersubjective meaning making: A research agenda for CSCL Daniel D. Suthers
 2,,c,1,3,2,J. van der Pol & W. Admiraal & P.R.J. Simons,The affordance of anchored discussion for the collaborative processing of academic texts
 8,,c,1,3,3,Tobin White,Code talk: Student discourse and participation with networked handhelds
-13,,c,1,3,4,Alejandra Martínez · Yannis Dimitriadis · Eduardo Gómez-Sánchez· Bartolomé Rubia-Avi · Iván Jorrín-Abellán · Jose A. Marcos,
-1,editorial,e,1,4,,Gerry Stahl & Friedrich Hesse,Social practices of
+13,,c,1,3,4,AlejandraMartínez & Yannis Dimitriadis & Eduardo Gómez-Sánchez & Bartolomé Rubia-Avi & Iván Jorrín-Abellán & Jose A. Marcos,Studying participation networks in collaboration using mixed methods
+1,editorial,e,1,4,0,Gerry Stahl & Friedrich Hesse,Social practices of
 2,,c,1,4,1,Noel Enyedy & Christopher M. Hoadley,From dialogue to monologue and back: Middle spaces in computer-mediated learning
 8,,b,1,4,2,Joan Moss & Ruth Beatty,Knowledge building in mathematics: Supporting collaborative learning in pattern problems
 4,,c,1,4,3,Lynn Clouder & Jayne Dalley & Julian Hargreaves & Sally Parkes & Julie Sellars & Jane Toms,Electronic [re]constitution of groups: Group dynamics from face-to-face to an online setting
 4,,a,1,4,4,Nathan Dwyer & Daniel D. Suthers,Consistent practices in artifact-mediated collaboration
-13,editorial,e,2,1,,Gerry Stahl & Friedrich Hesse,Welcome to the future: ijCSCL volume 2
-7,,e,2,1,1,Gerhard Fischer & Markus Rohde & Volker Wulf,"Community-based learning: The core competency of residential, research-based universities"
-16,,e,2,1,2,John M. Carroll & Umer Farooq,Patterns as a paradigm for theory in community-based learning
+13,editorial,e,2,1,0,Gerry Stahl & Friedrich Hesse,Welcome to the future: ijCSCL volume 2
+7,,f,2,1,1,Gerhard Fischer & Markus Rohde & Volker Wulf,"Community-based learning: The core competency of residential, research-based universities"
+16,,c,2,1,2,John M. Carroll & Umer Farooq,Patterns as a paradigm for theory in community-based learning
 1,,d,2,1,3,Anne Meier & Hans Spada & Nikol Rummel,A rating scheme for assessing the quality of computer-supported collaboration processes
 4,,c,2,1,4,Maarten de Laat & Vic Lally & Lasse Lipponen & Robert-Jan Simons,Investigating patterns of interaction in networked learning and
 2,,c,2,1,5,Liam Rourke & Heather Kanuka,Barriers to online critical discourse
-10,editorial,e,2,2,,Gerry Stahl & Daniel D. Suthers & Friedrich Hesse,A double issue for CSCL 2007
+10,editorial,e,2,2,0,Gerry Stahl & Daniel D. Suthers & Friedrich Hesse,A double issue for CSCL 2007
 12,,c,2,2,1,Maarit Arvaja,Contextual perspective in analysing collaborative knowledge construction of two small groups in web-based discussion
 8,,b,2,2,2,Nilufar Baghaei & Antonija Mitrovic & Warwick Irwin,Supporting collaborative learning and problem-solving in a constraint-based CSCL environment for UML class diagrams
 15,,c,2,2,3,Marc Stadtler & Rainer Bromme,Dealing with multiple documents on the WWW: The role of metacognition in the formation of documents models
@@ -39,98 +39,98 @@ Cluster,Editorial,Category,Volume,Issue,Article_Number,Authors,Title
 9,,c,2,2,7,Kristine Lund & Gaëlle Molinari & Arnauld Séjourné & Michael Baker,How do argumentation diagrams compare when student pairs use them as a means for debate or as a tool for representing debate?
 9,,a,2,2,8,Baruch B. Schwarz & Reuma De Groot,Argumentation in a changing world
 9,,c,2,2,9,Michael Baker & Jerry Andriessen & Kristine Lund & Marie van Amelsvoort & Matthieu Quignard,Rainbow: A framework for analysing computer-mediated pedagogical debates
-14,editorial,e,2,4,,Gerry Stahl,CSCL and its flash themes
+14,editorial,e,2,4,0,Gerry Stahl,CSCL and its flash themes
 16,,a,2,4,1,Christine Greenhow & Brad Belbas,Using activity-oriented design methods to study collaborative knowledge-building in e-learning courses within higher education
 3,,b,2,4,2,Giasemi N. Vavoula & Mike Sharples,Future technology workshop: A collaborative method for the design of new learning technologies and activities
 9,,a,2,4,3,Karsten Stegmann & Armin Weinberger & Frank Fischer,Facilitating argumentative knowledge construction with computer-supported collaboration scripts
 9,,c,2,4,4,Baruch B. Schwarz & Amnon Glassner,The role of floor control and of ontology in argumentative activities with discussion-based tools
 9,,c,2,4,5,E. Michael Nussbaum & Denise L. Winsor & Yvette M. Aqui & Anne M. Poliquin,Putting the pieces together: Online argumentation vee diagrams enhance thinking during discussions
-13,editorial,e,3,1,,Gerry Stahl & Friedrich Hesse,The many levels of CSCL
+13,editorial,e,3,1,0,Gerry Stahl & Friedrich Hesse,The many levels of CSCL
 10,,b,3,1,1,Pierre Dillenbourg & Fabrice Hong,The mechanics of CSCL macro scripts
 8,,c,3,1,2,Ingeborg Krange & Sten Ludvigsen,What does it mean? Students’ procedural and conceptual problem solving in a CSCL environment designed within the field of science education
 7,,c,3,1,3,Bernhard Nett,A Community of Practice among tutors enabling student participation in a seminar preparation
-4,,e,3,1,4,Ulrike Cress,The need for considering multilevel analysis in CSCL research—An appeal for the use of more advanced statistical methods
+4,,d,3,1,4,Ulrike Cress,The need for considering multilevel analysis in CSCL research—An appeal for the use of more advanced statistical methods
 4,,c,3,1,5,Joachim Kimmerle & Ulrike Cress,Group awareness and self-presentation in computer-supported information exchange
-13,editorial,e,3,2,,Gerry Stahl,The strength of the lone wolf
+13,editorial,e,3,2,0,Gerry Stahl,The strength of the lone wolf
 12,,b,3,2,1,Ulrike Cress & Joachim Kimmerle,A systemic and cognitive view on collaborative knowledge building with wikis
 4,,b,3,2,2,Jürgen Buder & Daniel Bodemer,Supporting controversial CSCL discussions with augmented group awareness tools
 9,,c,3,2,3,Joanna Wolfe,Annotations and the collaborative digital library: Effects of an aligned annotation interface on student argumentation and reading strategies
 9,,c,3,2,4,Maarten Overdijk & Wouter van Diggelen,Appropriation of a shared workspace: Organizing principles and their application
 10,,c,3,2,5,Pierre Tchounikine,Operationalizing macro-scripts in CSCL technological settings
-2,editorial,e,3,3,,Gerry Stahl & Friedrich Hesse,Explorations of participation in discourse
+2,editorial,e,3,3,0,Gerry Stahl & Friedrich Hesse,Explorations of participation in discourse
 15,,c,3,3,1,Carolyn Rosé & Yi-Chia Wang & Yue Cui & Jaime Arguello & Karsten Stegmann & Armin Weinberger & Frank Fischer,Analyzing collaborative learning processes automatically: Exploiting the advances of computational linguistics in
 2,,b,3,3,2,Thomas Herrmann & Andrea Kienle,Context-oriented communication and the design of computer-supported discursive learning
 8,,c,3,3,3,Nancy Ares,Cultural practices in networked classroom learning environments
 1,,c,3,3,4,Judith Schoonenboom,The effect of a script and a structured interface in grounding discussions
-8,,a,3,3,5,activities in computer supported collaborative learning (CSCL) environments Diler Öner,Supporting students’ participation in authentic proof activities in computer supported collaborative learning (CSCL) environments Diler Öner
-8,editorial,e,3,3,6,Anna Sfard,Book review: Exploring thinking as communicating in CSCL
-13,editorial,e,3,4,,Gerry Stahl & Friedrich Hesse,CSCL practices
+8,,a,3,3,5,Diler Oner,Supporting students’ participation in authentic proof activities in computer supported collaborative learning (CSCL) environments Diler Öner
+8,editorial,e,3,3,6,Gerry Stahl,Book review: Exploring thinking as communicating in CSCL
+13,editorial,e,3,4,0,Gerry Stahl & Friedrich Hesse,CSCL practices
 7,,b,3,4,1,David Hung & Kenneth Y. T. Lim & Der-Thanq Victor Chen & Thiam Seng Koh,Leveraging online communities in fostering adaptive schools
 12,,c,3,4,2,Andreas Lund & Ingvill Rasmussen,The right tool for the wrong task? Match and mismatch between first and second stimulus in double stimulation
 7,,b,3,4,3,Brian C. Nelson & Diane Jass Ketelhut,Exploring embedded guidance and self-efficacy in educational multi-user virtual environments
 8,,b,3,4,4,Fengfeng Ke,Alternative goal structures for computer game-based learning
 2,,c,3,4,5,Gijsbert Erkens & Jeroen Janssen,Automatic coding of dialogue acts in collaboration protocols
-13,editorial,e,4,1,,Gerry Stahl,Yes we can!
-6,,e,4,1,1,Diana Laurillard,The pedagogical challenges to collaborative technologies
+13,editorial,e,4,1,0,Gerry Stahl,Yes we can!
+6,,b,4,1,1,Diana Laurillard,The pedagogical challenges to collaborative technologies
 8,,c,4,1,2,Manu Kapur & Charles K. Kinzer,Productive failure in CSCL groups
-,,c,4,1,3,Deborah A. Fields & Yasmin B. Kafai,A connective ethnography of peer knowledge sharing and diffusion in a tween virtual world
+0,,c,4,1,3,Deborah A. Fields & Yasmin B. Kafai,A connective ethnography of peer knowledge sharing and diffusion in a tween virtual world
 10,,c,4,1,4,Nikol Rummel & Hans Spada & Sabine Hauser,Learning to collaborate while being scripted or by observing a model
 8,,c,4,1,5,Annika Lantz-Andersson,The power of natural frameworks: Technology and the question of agency in CSCL settings
-13,editorial,e,4,2,,Gerry Stahl & Friedrich Hesse,Practice perspectives in CSCL
+13,editorial,e,4,2,0,Gerry Stahl & Friedrich Hesse,Practice perspectives in CSCL
 8,,c,4,2,1,Murat Perit Çakır & Alan Zemel & Gerry Stahl,The joint organization of interaction within a multimodal CSCL medium
-3,,e,4,2,2,Nina Bonderup Dohn,Affordances revisited: Articulating a Merleau-Pontian view
+3,,b,4,2,2,Nina Bonderup Dohn,Affordances revisited: Articulating a Merleau-Pontian view
 2,,c,4,2,3,Norm Friesen,Genre and CSCL: The form and rhetoric of the online posting
 16,,c,4,2,4,Hanni Muukkonen & Minna Lakkala,Exploring metaskills of knowledge-creating inquiry in higher education
 16,,b,4,2,5,Kai Hakkarainen,A knowledge-practice perspective on technology-mediated learning
-13,editorial,e,4,3,,Gerry Stahl & Friedrich Hesse,Classical dialogs in CSCL
+13,editorial,e,4,3,0,Gerry Stahl & Friedrich Hesse,Classical dialogs in CSCL
 13,,c,4,3,1,Peter Reimann,Time is precious: Variable- and event-centred approaches to process analysis in CSCL research
 16,,c,4,3,2,"construction, and knowledge-creation discourses Jan van Aalst","Distinguishing knowledge-sharing, knowledge- construction, and knowledge-creation discourses Jan van Aalst"
 3,,c,4,3,3,Jacques Lonchamp,A three-level analysis of collaborative learning in dual-interaction spaces
 5,,b,4,3,4,Asta Cekaite,Collaborative corrections with spelling control: Digital resources and peer assistance
-12,,e,4,3,5,Nina Bonderup Dohn,Web 2.0: Inherent tensions and evident challenges for education
-4,editorial,e,4,4,,Gerry Stahl & Friedrich Hesse,Paradigms of shared knowledge
+12,,f,4,3,5,Nina Bonderup Dohn,Web 2.0: Inherent tensions and evident challenges for education
+4,editorial,e,4,4,0,Gerry Stahl & Friedrich Hesse,Paradigms of shared knowledge
 12,,a,4,4,1,Johann Ari Larusson & Richard Alterman,Wikis to support the “collaborative” part of collaborative learning
 6,,b,4,4,2,David Birchfield & Colleen Megowan-Romanowicz,Earth science learning in SMALLab: A design experiment for mixed reality
 3,,c,4,4,3,Gustav Lymer & Jonas Ivarsson & Oskar Lindwall,Contrasting the use of tools for presentation and critique: Some cases from architectural education
 4,,a,4,4,4,Seiji Isotani & Akiko Inaba & Mitsuru Ikeda & Riichiro Mizoguchi,An ontology engineering approach to the realization of theory-driven group formation
-13,editorial,e,5,1,,Gerry Stahl & Friedrich Hesse,The CSCL field matures
+13,editorial,e,5,1,0,Gerry Stahl & Friedrich Hesse,The CSCL field matures
 4,,c,5,1,1,Daniel D. Suthers & Nathan Dwyer & Richard Medina & Ravi Vatrapu,"A framework for conceptualizing, representing, and analyzing distributed interaction"
-9,,e,5,1,2,Oliver Scheuer & Frank Loll & Niels Pinkwart & Bruce M. McLaren,Computer-supported argumentation: A review of the state of the art
+9,,b,5,1,2,Oliver Scheuer & Frank Loll & Niels Pinkwart & Bruce M. McLaren,Computer-supported argumentation: A review of the state of the art
 2,,c,5,1,3,Eva Mary Bures & Philip C. Abrami & Richard F. Schmid,Exploring whether students’ use of labelling depends upon the type of activity
 14,,c,5,1,4,Marc Clarà & Teresa Mauri,Toward a dialectic relation between the results in CSCL: Three critical methodological aspects of content analysis schemes
-13,editorial,e,5,2,,Gerry Stahl & Friedrich Hesse,A prism of CSCL research
+13,editorial,e,5,2,0,Gerry Stahl & Friedrich Hesse,A prism of CSCL research
 7,,b,5,2,1,Andri Ioannidou & Alexander Repenning & David Webb & Diane Keyser & Lisa Luhn & Christof Daetwyler,Mr. Vetro: A Collective Simulation for teaching health science
-5,,b,5,2,2,construal of animated educational software Göran Karlsson,Animation and grammar in science education: Learners’ construal of animated educational software Göran Karlsson
+5,,b,5,2,2,Goran Karlsson,Animation and grammar in science education: Learners’ construal of animated educational software Göran Karlsson
 10,,b,5,2,3,Joerg M. Haake & Hans-Rüdiger Pfister,Scripting a distance-learning university course: Do students benefit from net-based scripted collaboration?
 4,,c,5,2,4,Julia Gressick & Sharon J. Derry,Distributed leadership in online groups
 4,,c,5,2,5,Manoli Pifarre & Ruth Cobos,Promoting metacognitive skills through peer scaffolding in a CSCL environment
-4,editorial,e,5,3,,Gerry Stahl,Guiding group cognition in CSCL
+4,editorial,e,5,3,0,Gerry Stahl,Guiding group cognition in CSCL
 9,,c,5,3,1,Christa S. C. Asterhan & Baruch B. Schwarz,Online moderation of synchronous e-argumentation
 8,,b,5,3,2,Jingyan Lu & Susanne P. Lajoie & Jeffrey Wiseman,Scaffolding problem-based learning with CSCL tools
 4,,b,5,3,3,Tanja Engelmann & Friedrich W. Hesse,How digital concept maps about the collaborators’ knowledge and information influence computer-supported collaborative problem solving
 10,,a,5,3,4,Christof Wecker & Karsten Stegmann & Florian Bernstein & Michael J. Huber & Georg Kalus & Ingo Kollar & Sabine Rathmayer & Frank Fischer,S-COL: A Copernican turn for the development of flexibly reusable collaboration scripts
 7,,c,5,3,5,Anne Gerdes,Revealing preconditions for trustful collaboration in CSCL
-13,editorial,e,5,4,,Gerry Stahl & Friedrich Hesse,Beyond folk theories of CSCL
+13,editorial,e,5,4,0,Gerry Stahl & Friedrich Hesse,Beyond folk theories of CSCL
 5,,b,5,4,1,Ruth Kershner & Neil Mercer & Paul Warwick & Judith Kleine Staarman,Can the interactive whiteboard support young children’s collaborative communication and thinking in classroom science activities?
 7,,c,5,4,2,Meng Yew Tee & Dennis Karney,Sharing and cultivating tacit knowledge in an online learning environment
-,,c,5,4,3,Sinem Siyahhan & Sasha A. Barab & Michael P. Downton,Using activity theory to understand intergenerational play: The case of Family Quest
+0,,c,5,4,3,Sinem Siyahhan & Sasha A. Barab & Michael P. Downton,Using activity theory to understand intergenerational play: The case of Family Quest
 5,,c,5,4,4,Maria Beatrice Ligorio & Giuseppe Ritella,The collaborative construction of chronotopes during computer-supported collaborative professional tasks
-13,editorial,e,6,1,,Gerry Stahl & Friedrich Hesse,CSCL in Asia
-13,,e,6,1,1,Chee-Kit Looi & Hyo-Jeong So & Yancy Toh & Wenli Chen,"The Singapore experience: Synergy of national policy, classroom practice and design research"
+13,editorial,e,6,1,0,Gerry Stahl & Friedrich Hesse,CSCL in Asia
+13,,f,6,1,1,Chee-Kit Looi & Hyo-Jeong So & Yancy Toh & Wenli Chen,"The Singapore experience: Synergy of national policy, classroom practice and design research"
 4,,c,6,1,2,Manu Kapur,Temporality matters: Advancing a method for analyzing problem-solving processes in a computer-supported collaborative environment
 8,,c,6,1,3,Suneeta A. Pathak & Beaumie Kim & Michael J. Jacobson & Baohui Zhang,Learning the physics of electricity: A qualitative analysis of collaborative processes involved in productive failure
-2,,c,6,1,4,peer-reviewed English writing Zi-gang Ge,Exploring e-learners’ perceptions of net-based peer-reviewed English writing Zi-gang Ge
+2,,c,6,1,4,Zi-gang Ge,Exploring e-learners' perceptions of net-based peer-reviewed English writing
 12,,b,6,1,5,Michael Glassman & Min Ju Kang,The logic of wikis: The possibilities of the Web 2.0 classroom
 9,,c,6,1,6,Baruch B. Schwarz & Yaron Schur & Haim Pensso & Naama Tayer,Perspective taking and synchronous argumentation for learning the day/night cycle
-13,editorial,e,6,2,,Gerry Stahl & Friedrich Hesse,Let a hundred flowers bloom; let a hundred schools of thought contend
-13,,e,6,2,1,and sustaining knowledge building in Hong Kong classrooms Carol K. K. Chan,Bridging research and practice: Implementing and sustaining knowledge building in Hong Kong classrooms Carol K. K. Chan
+13,editorial,e,6,2,0,Gerry Stahl & Friedrich Hesse,Let a hundred flowers bloom; let a hundred schools of thought contend
+13,,b,6,2,1,Carol Chan,Bridging research and practice: Implementing and sustaining knowledge building in Hong Kong classrooms Carol K. K. Chan
 12,,c,6,2,2,Manoli Pifarré & Judith Kleine Staarman,Wiki-supported collaborative learning in primary education: How a dialogic space is created for thinking together
-4,,c,6,2,3,and convergence in collaborative learning Robert L. Jorczak,An information processing perspective on divergence and convergence in collaborative learning Robert L. Jorczak
+4,,c,6,2,3,Robert L. Jorczak,An information processing perspective on divergence and convergence in collaborative learning Robert L. Jorczak
 8,,b,6,2,4,Bas Kolloffel & Tessa H. S. Eysink & Ton de Jong,Comparing the effects of representational tools in collaborative and individual inquiry learning
 1,,c,6,2,5,Michael A. Evans & Eliot Feenstra & Emily Ryon & David McNeill,"A multimodal approach to coding discourse: Collaboration, distributed cognition, and geometric reasoning"
 8,,b,6,2,6,Erin Walker & Nikol Rummel & Kenneth R. Koedinger,Designing automated adaptive support to improve student helping behaviors in a peer tutoring activity
 1,,c,6,2,7,Ulrike Cress & Katrin Wodzicki & Martina Bientzle & Andreas Lingnau,CSCL for intellectually disabled pupils: Stimulating interaction by using a floor control mechanism
-13,editorial,e,6,3,,Gerry Stahl & Friedrich W. Hesse & Nancy Law,Tweets from #cscl2011
+13,editorial,e,6,3,0,Gerry Stahl & Friedrich W. Hesse & Nancy Law,Tweets from #cscl2011
 4,,b,6,3,1,Cliff Lampe & Donghee Yvette Wohn & Jessica Vitak & Nicole B. Ellison & Rick Wash,Student use of Facebook for organizing collaborative classroom activities
 16,,c,6,3,2,Fengfeng Ke & Alicia F. Chávez & Pei-Ni L. Causarano & Antonio Causarano,Identity presence and knowledge building: Joint emergence in online learning environments?
 4,,b,6,3,3,Hao-Chuan Wang & Carolyn P. Rosé & Chun-Yen Chang,Agent-based dynamic support for learning from collaborative brainstorming in scientific inquiry
@@ -138,7 +138,7 @@ Cluster,Editorial,Category,Volume,Issue,Article_Number,Authors,Title
 8,,a,6,3,5,Dejana Mullins & Nikol Rummel & Hans Spada,Are two heads always better than one? Differential effects of collaboration on students’ computer-supported learning in mathematics
 15,,c,6,3,6,Alyssa Friend Wise & Ming Ming Chiu,Analyzing temporal patterns of knowledge construction in a role-based online discussion
 4,,c,6,3,7,Francesca Pozzi,The impact of scripted roles on online collaborative learning processes
-1,editorial,e,6,4,,Gerry Stahl,Collaborating around the tabletop
+1,editorial,e,6,4,0,Gerry Stahl,Collaborating around the tabletop
 6,,b,6,4,1,Pierre Dillenbourg & Michael Evans,Interactive tabletops in education
 6,,b,6,4,2,Steven E. Higgins & Emma Mercier & Elizabeth Burd & Andrew Hatch,Multi-touch tables and the relationship with collaborative classroom pedagogies: A synthetic review
 6,,c,6,4,3,Taciana Pontual Falcão & Sara Price,Interfering and resolving: How tabletop interaction facilitates co-construction of argumentative knowledge
@@ -146,90 +146,90 @@ Cluster,Editorial,Category,Volume,Issue,Article_Number,Authors,Title
 2,,c,6,4,5,Giulia Gelmini-Hornsby & Shaaron Ainsworth & Claire O’Malley,Guided reciprocal questioning to support children’s collaborative storytelling
 16,,b,6,4,6,Inge Molenaar & Ming Ming Chiu & Peter Sleegers & Carla van Boxtel,Scaffolding of small groups’ metacognitive activities with an avatar
 13,,b,6,4,7,Donatella Cesareni & Francesca Martini & Ilaria Mancini,"Building a community among teachers, researchers and university students. A blended approach to training"
-2,editorial,e,7,1,,Gerry Stahl,Ethnomethodologically informed
+2,editorial,e,7,1,0,Gerry Stahl,Ethnomethodologically informed
 5,,c,7,1,1,Christian Greiffenhagen,Making rounds: The routine work of the teacher during collaborative learning with computers
-,,c,7,1,2,Ulrika Bennerstedt & Jonas Ivarsson & Jonas Linderoth,How gamers manage aggression: Situating skills in collaborative computer games
-,,c,7,1,3,Kenneth Silseth,The multivoicedness of game play: Exploring the unfolding of a student’s learning trajectory in a gaming context at school
+0,,c,7,1,2,Ulrika Bennerstedt & Jonas Ivarsson & Jonas Linderoth,How gamers manage aggression: Situating skills in collaborative computer games
+0,,c,7,1,3,Kenneth Silseth,The multivoicedness of game play: Exploring the unfolding of a student’s learning trajectory in a gaming context at school
 16,,c,7,1,4,Maarit Arvaja,Personal and shared experiences as resources for meaning making in a philosophy of science course
 2,,c,7,1,5,Sarah Pollack & Yifat Ben-David Kolikant,Collaboration amidst disagreement and moral judgment: The dynamics of Jewish and Arab students’ collaborative inquiry of their joint past
 5,,c,7,1,6,Yangjie Song & Chee-Kit Looi,"Linking teacher beliefs, practices and student inquiry-based learning in a CSCL environment: A tale of two teachers"
 10,,c,7,1,7,Javier Onrubia & Anna Engel,The role of teacher assistance on the effects of a macro-script in collaborative writing tasks
-3,editorial,e,7,2,,Gerry Stahl,Cognizing mediating: Unpacking the entanglement of artifacts with collective minds
+3,editorial,e,7,2,0,Gerry Stahl,Cognizing mediating: Unpacking the entanglement of artifacts with collective minds
 3,,b,7,2,1,Maarten Overdijk & Wouter van Diggelen & Paul A. Kirschner & Michael Baker,Connecting agents and artifacts in CSCL: Towards a rationale of mutual shaping
 13,,c,7,2,2,Jacques Lonchamp,An instrumental perspective on CSCL systems
 3,,c,7,2,3,Giuseppe Ritella & Kai Hakkarainen,Instrumental genesis in technology-mediated learning: From double stimulation to expansive knowledge practices
 4,,b,7,2,4,Carmen Zahn & Karsten Krauskopf & Friedrich W. Hesse & Roy Pea,How to improve collaborative learning with video tools in the classroom? Social vs. cognitive guidance for student teams
 15,,c,7,2,5,Jin Mu & Karsten Stegmann & Elijah Mayfield & Carolyn Rosé & Frank Fischer,The ACODEA framework: Developing segmentation and classification schemes for fully automatic analysis of online discussions
 10,,b,7,2,6,Nikol Rummel & Dejana Mullins & Hans Spada,Scripted collaborative learning with the cognitive tutor algebra
-13,editorial,e,7,3,,Gerry Stahl & Nancy Law & Friedrich Hesse,An international research community
+13,editorial,e,7,3,0,Gerry Stahl & Nancy Law & Friedrich Hesse,An international research community
 6,,b,7,3,1,Noel Enyedy & Joshua A. Danish & Girlie Delacruz & Melissa Kumar,Learning physics through play in an augmented reality environment
 3,,b,7,3,2,Kim MacKinnon,Context matters: The value of analyzing human factors within educational contexts as a way of informing technology-related decisions within design research
 5,,c,7,3,3,Eun Mee Lim,Patterns of kindergarten children’s social interaction with peers in the computer area
 2,,c,7,3,4,Mingzhu Qiu & Jim Hewitt & Clare Brett,"Online class size, note reading, note writing and collaborative discourse"
 6,,c,7,3,5,Mar Pérez-Sanagustín & Patricia Santos & Davinia Hernández-Leo & Josep Blat,4SPPIces: A case study of factors in a scripted collaborative-learning blended course across spatial locations
-13,editorial,e,7,4,,Gerry Stahl,Traversing planes of learning
+13,editorial,e,7,4,0,Gerry Stahl,Traversing planes of learning
 14,,c,7,4,1,Jacques Lonchamp,Computational analysis and mapping of ijCSCL content
 6,,b,7,4,2,Markus Nivala & Hans Rystedt & Roger Säljö & Pauliina Kronqvist & Erno Lehtinen,Interactive visual tools as triggers of collaborative reasoning in entry-level pathology
 6,,b,7,4,3,Susan A. Yoon & Karen Elinich & Joyce Wang & Christopher Steinmeier & Sean Tucker,Using augmented reality and knowledge-building scaffolds to improve learning in a science museum
 16,,c,7,4,4,Chia-Ching Lin & Chin-Chung Tsai,Participatory learning through behavioral and cognitive engagements in an online collective information searching activity
 10,,a,7,4,5,Péricles Sobreira & Pierre Tchounikine,A model for flexibly editing CSCL scripts
-8,,e,8,1,,Diler Oner,Analyzing group coordination when solving geometry problems with dynamic geometry software
-3,editorial,c,8,1,1,Gerry Stahl,Learning across levels
-,,c,8,1,2,Magnus Hontvedt & Hans Christian Arnseth,On the bridge to learn: Analysing the social organization of nautical instruction in a ship simulator
+8,,c,8,1,0,Diler Oner,Analyzing group coordination when solving geometry problems with dynamic geometry software
+3,editorial,e,8,1,1,Gerry Stahl,Learning across levels
+0,,c,8,1,2,Magnus Hontvedt & Hans Christian Arnseth,On the bridge to learn: Analysing the social organization of nautical instruction in a ship simulator
 6,,c,8,1,3,Anniken Furberg & Anders Kluge & Sten Ludvigsen,Student sensemaking with science diagrams in a computer-based setting
 8,,c,8,1,4,Alan Zemel & Timothy Koschmann,Recalibrating reference within a dual-space interaction environment
 2,,c,8,1,5,Evren Eryilmaz & Jakko van der Pol & Terry Ryan & Philip Martin Clark & Justin Mary,Enhancing student knowledge acquisition from online learning conversations
-2,editorial,e,8,2,,Gerry Stahl,Transactive discourse in CSCL
+2,editorial,e,8,2,0,Gerry Stahl,Transactive discourse in CSCL
 12,,c,8,2,1,Richard Alterman · Johann Ari Larusson,
 10,,a,8,2,2,Omid Noroozi & Stephanie D. Teasley & Harm J. A. Biemans & Armin Weinberger & Martin Mulder,Facilitating learning in multidisciplinary groups with transactive CSCL scripts
 1,,b,8,2,3,Florencia Gómez & Miguel Nussbaum & Juan F. Weitz & Ximena Lopez & Javiera Mena & Alex Torres,Co-located single display collaborative learning for early childhood education
 2,,d,8,2,4,Gahgene Gweon & Mahaveer Jain & John McDonough & Bhiksha Raj & Carolyn P. Rosé,Measuring prevalence of other-oriented transactive contributions using an automated measure of speech style accommodation
-13,editorial,e,8,3,,Gerry Stahl & Nancy Law & Friedrich Hesse,Collaborative Learning at CSCL 2013
+13,editorial,e,8,3,0,Gerry Stahl & Nancy Law & Friedrich Hesse,Collaborative Learning at CSCL 2013
 8,,b,8,3,1,Raija Hämäläinen & Bram De Wever,Vocational education approach: New TEL settings—new prospects for teachers’ instructional activities?
 2,,c,8,3,2,Annika Lantz-Andersson & Sylvi Vigmo & Rhonwen Bowen,Crossing boundaries in Facebook: Students’ framing of language learning activities as extended spaces
 16,,c,8,3,3,Meng Yew Tee & Shuh Shing Lee,Advancing understanding using Nonaka’s model of knowledge creation and problem-based learning
 2,,c,8,3,4,Armin Weinberger & Miika Marttunen & Leena Laurinen & Karsten Stegmann,Inducing socio-cognitive conflict in Finnish and German groups of online learners by CSCL script
 2,,c,8,3,5,M. Beatrice Ligorio & Fedela Feldia Loperfido & Nadia Sansone,Dialogical positions as a method of understanding identity trajectories in a collaborative blended university course
-1,editorial,e,8,4,,Gerry Stahl & Nancy Law & Friedrich Hesse,Reigniting CSCL flash themes
+1,editorial,e,8,4,0,Gerry Stahl & Nancy Law & Friedrich Hesse,Reigniting CSCL flash themes
 1,,c,8,4,1,Bertrand Schneider & Roy Pea,Real-time mutual gaze perception enhances collaborative learning and collaboration quality
 9,,c,8,4,2,Esra Alagoz,Social argumentation in online synchronous communication
 10,,b,8,4,3,Hannie Gijlers & Armin Weinberger & Alieke Mattia van Dijk & Lars Bollen & Wouter van Joolingen,Collaborative drawing on a shared digital canvas in elementary science education: The effects of script and task awareness support
 1,,c,8,4,4,Roberto Martinez-Maldonado & Yannis Dimitriadis & Alejandra Martinez-Monés & Judy Kay & Kalina Yacef,Capturing and analyzing verbal and physical collaborative learning interactions at an enriched interactive tabletop
-16,editorial,e,9,1,,Gerry Stahl & Ulrike Cress & Nancy Law & Sten Ludvigsen,Analyzing the multidimensional construction of knowledge in diverse contexts
+16,editorial,e,9,1,0,Gerry Stahl & Ulrike Cress & Nancy Law & Sten Ludvigsen,Analyzing the multidimensional construction of knowledge in diverse contexts
 2,,c,9,1,1,Sue Timmis,The dialectical potential of Cultural Historical Activity Theory for researching sustainable CSCL practices
 16,,c,9,1,3,Katerine Bielaczyc & John Ow,Multi-player epistemic games: Guiding the enactment of classroom knowledge-building communities
 11,,c,9,1,4,Iassen Halatchliyski & Johannes Moskaliuk & Joachim Kimmerle & Ulrike Cress,Explaining authors’ contribution to pivotal artifacts during mass collaboration in the Wikipedia’s knowledge base
-2,editorial,e,9,2,,Gerry Stahl & Ulrike Cress & Sten Ludvigsen & Nancy Law,Dialogic foundations of CSCL
+2,editorial,e,9,2,0,Gerry Stahl & Ulrike Cress & Sten Ludvigsen & Nancy Law,Dialogic foundations of CSCL
 2,,c,9,2,1,Stefan Trausan-Matu & Mihai Dascalu & Traian Rebedea,PolyCAFe—automatic support for the polyphonic analysis of CSCL chats
 2,,c,9,2,2,Benzi Slakmon & Baruch B. Schwarz,Disengaged students and dialogic learning: the role of CSCL affordances
 9,,c,9,2,3,Alyssa Friend Wise & Simone Nicole Hausknecht & Yuting Zhao,Attending to others’ posts in asynchronous discussions: Learners’ online “listening” and its relationship to speaking
 4,,c,9,2,4,Tanja Engelmann & Richard Kolodziej & Friedrich W. Hesse,Preventing undesirable effects of mutual trust and the development of skepticism in virtual groups by applying the knowledge and information awareness approach
-4,editorial,e,9,3,,G. Stahl & S. Ludvigsen & N. Law & U. Cress,CSCL artifacts
-16,,c,9,3,1,Productive interactions in object-oriented collaboration Crina I. Damşa,The multi-layered nature of small-group learning: Productive interactions in object-oriented collaboration Crina I. Damşa
+4,editorial,e,9,3,0,Gerry Stahl & Sten Ludvigsen & Nancy Law & Ulrike Cress,CSCL artifacts
+16,,c,9,3,1,Crina Damsa,The multi-layered nature of small-group learning: Productive interactions in object-oriented collaboration Crina I. Damşa
 3,,b,9,3,2,Maarten Overdijk & Wouter van Diggelen & Jerry Andriessen & Paul A. Kirschner,How to bring a technical artifact into use: A micro-developmental perspective
 14,,c,9,3,3,Heisawn Jeong & Cindy E. Hmelo-Silver & Yawen Yu,An examination of CSCL methodological practices and the influence of theoretical frameworks 2005–2009
 14,,c,9,3,4,Kai-Yu Tang & Chin-Chung Tsai & Tzu-Chiang Lin,Contemporary intellectual structure of CSCL research (2006–2013): a co-citation network analysis with an education focus
-4,editorial,c,9,4,,Gerry Stahl & Nancy Law & Ulrike Cress & Sten Ludvigsen,Analyzing roles of individuals in small-group collaboration processes
+4,editorial,e,9,4,0,Gerry Stahl & Nancy Law & Ulrike Cress & Sten Ludvigsen,Analyzing roles of individuals in small-group collaboration processes
 1,,c,9,4,1,Bertrand Schneider & Roy Pea,Toward collaboration sensing
 4,,c,9,4,2,Emma M. Mercier & Steven E. Higgins & Laura da Costa,Different leaders: Emergent organizational and intellectual leadership in children’s collaborative learning groups
 16,,c,9,4,3,H. Smith Risser & SueAnn Bottoms,“Newbies” and “Celebrities”: Detecting social roles in an online network of teachers via participation patterns
 2,,c,9,4,4,Michelle E. Jordan & An-Chih Janne Cheng & Diane Schallert & Kwangok Song & SoonAh Lee & Yangjoo Park,“I guess my question is”: What is the co-occurrence of uncertainty and learning in computer-mediated discourse?
-6,editorial,e,10,1,,Sten Ludvigsen & Gerry Stahl & Nancy Law & Ulrike Cress,From the editors: Collaboration and the formation of new knowledge artifacts
+6,editorial,e,10,1,0,Sten Ludvigsen & Gerry Stahl & Nancy Law & Ulrike Cress,From the editors: Collaboration and the formation of new knowledge artifacts
 6,,b,10,1,1,Noel Enyedy & Joshua A. Danish & David DeLiema,Constructing liminal blends in a collaborative augmented-reality learning environment
 12,,c,10,1,2,Andrea Forte,The new information literate: Open collaboration and information production in schools
 6,,c,10,1,3,Pryce Davis & Michael Horn & Florian Block & Brenda Phillips & E. Margaret Evans & Judy Diamond & Chia Shen,BWhoa! We’re going deep in the trees!^: Patterns of collaboration around an interactive information visualization exhibit
 2,,c,10,1,4,Yun Wen & Chee-Kit Looi & Wenli Chen,Appropriation of a representational tool in a second-language classroom
-4,editorial,e,10,2,,Gerry Stahl & Friedrich Hesse,"The core features of CSCL: Social situation, collaborative knowledge processes and their design"
+4,editorial,e,10,2,0,Gerry Stahl & Friedrich Hesse,"The core features of CSCL: Social situation, collaborative knowledge processes and their design"
 4,,c,10,2,1,Martin Rehm & Wim Gijselaers & Mien Segers,The impact of hierarchical positions on communities of learning
 7,,c,10,2,2,Jian-Wei Lin1 & Li-Jung Mai2 & Yung-Cheng Lai1,Peer interaction and social network analysis of online communities with the support of awareness of different contexts
 16,,a,10,2,3,Tuya Siqin & Jan van Aalst & Samuel Kai Wah Chu,Fixed group and opportunistic collaboration in a CSCL environment
-6,,c,10,2,4,S´ebastien Cuendet1 · Jessica Dehler-Zufferey1 · Giulia Ortoleva2 · Pierre Dillenbourg1,
-13,editorial,e,10,3,,Gerry Stahl1,Conceptualizing the intersubjective group
-2,,c,10,3,1,making online: What does it offer and what are the difficulties? Michael Hammond1,A Habermasian perspective on joint meaning making online: What does it offer and what are the difficulties?
+6,,c,10,2,4,Sebastien Cuendet & Jessica Dehler-Zufferey & Giulia Ortoleva & Pierre Dillenbourg,An integrated way of using a tangible user interface in a classroom
+13,editorial,e,10,3,0,Gerry Stahl,Conceptualizing the intersubjective group
+2,,c,10,3,1,Michael Hammond,A Habermasian perspective on joint meaning making online: What does it offer and what are the difficulties?
 13,,b,10,3,2,Baruch B. Schwarz1 & Reuma de Groot1 & Manolis Mavrikis2 & Toby Dragon3,Learning to learn together with CSCL tools
 4,,c,10,3,3,Suparna Sinha1 & Toni Kempler Rogat2 & Karlyn R. Adams-Wiggins1 & Cindy E. Hmelo-Silver3,Collaborative group engagement in a computer-supported inquiry learning environment
 16,,c,10,3,4,Monica Resendes1 & Marlene Scardamalia1 & Carl Bereiter1 & Bodong Chen2 & Cindy Halewood3,Group-level formative feedback and metadiscourse
-13,editorial,e,10,4,,Gerry Stahl1,A decade of CSCL
+13,editorial,e,10,4,0,Gerry Stahl,A decade of CSCL
 16,,c,10,4,1,Bodong Chen1 & Marlene Scardamalia2 & Carl Bereiter2,Advancing knowledge‐building discourse through judgments of promising ideas
 4,,c,10,4,2,Owen M. Harney1 & Michael J. Hogan1 & Benjamin Broome2 & Tony Hall1 & Cormac Ryan1,"Investigating the effects of prompts on argumentation style, consensus and perceived efficacy in collaborative learning"
 2,,b,10,4,3,Mihai Dascalu1 & Stefan Trausan-Matu1 & Danielle S. McNamara2 & Philippe Dessus3,ReaderBench: Automated evaluation of collaboration based on cohesion and dialogism

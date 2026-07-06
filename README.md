@@ -159,6 +159,31 @@ python -c "from src.run_vector_pipeline import run_embedding_and_clustering; pri
 Regenerate `reports/cluster_haiku_summary.csv`, then compare cluster labels
 with category, summary, year, and editorial flags for trend analysis.
 
+Generate the cluster report directly from the current PKL store:
+
+```bash
+PYTHONPATH=$PWD python -m src.build_cluster_haiku_summary_csv
+```
+
+### End-of-session refresh (reports + GitHub)
+
+Use one command to clean temporary helper scripts, regenerate report CSVs from
+the current PKL store, and optionally commit/push to GitHub:
+
+```bash
+PYTHONPATH=$PWD python -m src.refresh_reports --commit --push
+```
+
+Useful variants:
+
+```bash
+# Refresh reports only (no git changes)
+PYTHONPATH=$PWD python -m src.refresh_reports
+
+# Refresh + commit, but do not push
+PYTHONPATH=$PWD python -m src.refresh_reports --commit --message "Refresh reports"
+```
+
 
 Vector pipeline
 ---------------
@@ -201,6 +226,9 @@ Files of interest
 - `src/compare_summaries.py`: Ollama vs Claude comparison report
 - `src/generate_categories_and_chart.py`: volume/category spreadsheet and chart
 - `src/regenerate_reports.py`: re-ingest raw PDFs and rebuild the store
+- `src/build_articles_csv.py`: builds `reports/articles.csv` from the PKL store
+- `src/build_cluster_haiku_summary_csv.py`: builds `reports/cluster_haiku_summary.csv` from the PKL store
+- `src/refresh_reports.py`: end-of-session report refresh, cleanup, and optional git commit/push
 - `src/embed_texts.py`: embedding helpers
 - `src/cluster_vectors.py`: vector loading and clustering helpers
 - `src/run_vector_pipeline.py`: end-to-end vector pipeline
