@@ -2,7 +2,7 @@ anniversary
 ===========
 
 This project supports the 20th anniversary of the "International Journal of
-Computer-Supported Collaborative Learning" (ijCSCL), covering 2006-2025.
+Computer-Supported Collaborative Learning" (ijCSCL), covering 2006-2026.
 Its goal is to analyze longitudinal journal trends by clustering summaries of
 published articles.
 
@@ -15,6 +15,10 @@ The Anniversary Project provides utilities for:
 - preparing vector representations (semantic embeddings) of the summaries,
 - performing clustering analysis of summary vectors.
 
+Development is done in Visual Studio Code. Journal articles are summarized with
+Claude Haiku and with local Ollama (`llama3.1:8b`), and sample trend-coding is
+run with Haiku using the controlled taxonomy in `src/dimension_taxonomy.py`.
+
 Quick start
 -----------
 
@@ -24,10 +28,16 @@ Quick start
 python -m pip install -r documentation/requirements.txt
 ```
 
-2. Ingest PDFs from `data/raw`:
+2. Ingest PDFs from the default raw directories (`data/raw 2006-2015` and `data/raw 2016-2026`):
 
 ```bash
-python -m src --root data/raw
+python -m src
+```
+
+To ingest from a specific directory only:
+
+```bash
+python -m src --root "data/raw 2006-2015"
 ```
 
 3. Build or refresh the tabular report:
@@ -41,6 +51,28 @@ This updates:
 - `data/processed/ijcscl.pkl`
 - `data/processed/ijcscl.json`
 - `reports/articles.csv`
+
+Manual metadata corrections
+---------------------------
+
+Use `data/metadata_corrections.csv` for durable hand edits to metadata fields.
+This is the safest way to override `title`, `authors`, `editorial`, DOI, or basic
+bibliographic fields without editing the derived JSON/CSV outputs directly.
+
+- Edit one row per article id.
+- Leave a cell blank to keep the current stored value.
+- Use `__CLEAR__` to explicitly clear a field.
+- Supported columns: `id`, `title`, `authors`, `editorial`, `doi`, `year`,
+  `volume`, `issue`, `article_number`, `notes`.
+
+Apply the corrections without re-ingesting PDFs:
+
+```bash
+PYTHONPATH=$PWD python -m src.apply_metadata_corrections
+```
+
+Corrections are also applied automatically whenever you run PDF ingestion or the
+end-of-session refresh command, so your manual fixes persist across future re-runs.
 
 Data model
 ----------
@@ -67,18 +99,18 @@ Workflow
 
 Current data status:
 
-- 235 PDFs for 2006-2015 were ingested in early July.
-- PDFs for 2016-2025 are pending download from the Springer site.
-- Editorial articles were manually identified (usually `article_number=0` and
-  author = journal editor).
+- 357 PDFs are currently ingested across 2006-2026.
+- Ingestion scans both default raw directories: `data/raw 2006-2015` and
+  `data/raw 2016-2026`.
+- Editorial articles are flagged and can be refined through
+  `data/metadata_corrections.csv`.
 
 `src/ingest.py` discovers PDFs, extracts full text with PyMuPDF, and infers title and author
 metadata from first-page layout cues.
 
 ### Ollama summaries
 
-These summaries are computationally slow; only a few were generated with
-`llama3.1:8b` running locally.
+These summaries run locally with `llama3.1:8b` and are slower than Haiku.
 
 Generate or refresh one summary:
 
@@ -96,8 +128,8 @@ These populate `summary_ollama`.
 
 ### Claude Haiku summaries
 
-For 2006-2015, 235 PDFs were summarized by Claude Haiku in early July at an
-approximate cost of $4.
+Claude Haiku summaries are stored in `summary_haiku` and can be regenerated at
+any time.
 
 Generate Claude summaries and persist them back to the store:
 
@@ -187,6 +219,122 @@ cluster/category values, and dimension-coding fields for:
 
 Taxonomy and coding policy notes: `documentation/trend_taxonomy_v1.md`.
 
+### Category taxonomy and prompts
+
+This project uses two related coding layers:
+
+1) **Legacy category label** (`category`, single letter)
+
+- `a`: design of collaboration
+- `b`: design of technology to support learning
+- `c`: analysis of interaction among students
+- `d`: measurement of learning
+- `e`: editorial
+- `f`: none of the above
+
+2) **Trend-coding taxonomy** (dimension-specific fields in `reports/trends_dataset.csv`)
+
+- `methodology_primary` (from `methodology` options)
+- `unit_of_analysis_primary` (from `unit_of_analysis` options)
+- `pedagogy_primary` (from `pedagogy` options)
+- `technology_primary` (from `technology` options)
+- `theory_primary` (from `theory` options)
+- `ai_llm_involvement_primary` (from `ai_llm_involvement` options)
+
+Canonical options are defined in `src/dimension_taxonomy.py` and include an `other`
+fallback in every dimension.
+
+#### Dimension options (canonical)
+
+- `methodology`: `descriptive_statistics`, `inferential_statistics`,
+  `multilevel_modeling`, `social_network_analysis`, `discourse_analysis`,
+  `interaction_analysis`, `computational_linguistics_nlp`,
+  `sequence_process_mining`, `learning_analytics`,
+  `experimental_quasi_experimental`, `design_based_research`,
+  `ethnographic_case_study`, `mixed_methods`, `content_analysis`, `other`
+- `unit_of_analysis`: `individual_learner`, `dyad_small_group`,
+  `classroom_cohort`, `teacher_facilitation`, `community_network`,
+  `artifact_discourse_trace`, `cross_level_multilevel`, `other`
+- `pedagogy`: `knowledge_building`, `collaboration_scripts`,
+  `inquiry_problem_based_learning`, `argumentation`, `peer_review_feedback`,
+  `teacher_orchestrated_discussion`, `self_peer_regulation`,
+  `community_of_practice`, `other`
+- `technology`: `asynchronous_forum`, `synchronous_chat_video`,
+  `wiki_knowledge_base`, `shared_workspace_canvas`,
+  `tabletop_tangible_interface`, `awareness_dashboard`,
+  `collaboration_scripting_tools`, `multimodal_sensors_eye_tracking`,
+  `none_minimal_technology`, `other`
+- `theory`: `sociocultural`, `dialogic`, `socio_cognitive`,
+  `knowledge_building_theory`, `activity_theory`, `communities_of_practice`,
+  `distributed_cognition`, `information_processing`, `critical_pragmatic`,
+  `other`
+- `ai_llm_involvement`: `none`, `ai_supported_non_llm`,
+  `llm_supported_writing`, `llm_supported_feedback`,
+  `llm_supported_assessment`, `llm_supported_orchestration`,
+  `llm_supported_analytics`, `llm_as_learning_partner`, `other`
+
+#### Prompt templates used in code
+
+**Summarization system prompt** (`src/summarize.py`):
+
+```text
+You are an expert in computer-supported collaborative learning.
+Write a concise 50-60 word summary of the article's central claim or finding.
+Focus on the main research question, method type, and conclusion.
+Do not mention that you are summarizing.
+Return only the summary text.
+```
+
+**Summarization user prompt template** (`src/summarize.py`):
+
+```text
+Title: {title}
+Authors: {authors}
+Year: {year}
+Volume: {volume}
+Issue: {issue}
+Article ID: {id}
+
+Article text:
+{fulltext}
+```
+
+**Trend-coding system prompt** (`src/_run_haiku_and_coding_sample.py`):
+
+```text
+You are an expert in computer-supported collaborative learning (CSCL) and systematic literature review.
+Return a compact JSON object with exactly these keys and controlled values:
+
+  methodology_primary — choose ONE of: [from src/dimension_taxonomy.py]
+  unit_of_analysis_primary — choose ONE of: [from src/dimension_taxonomy.py]
+  pedagogy_primary — choose ONE of: [from src/dimension_taxonomy.py]
+  technology_primary — choose ONE of: [from src/dimension_taxonomy.py]
+  theory_primary — choose ONE of: [from src/dimension_taxonomy.py]
+  ai_llm_involvement_primary — choose ONE of: [from src/dimension_taxonomy.py]
+  evidence_span: short phrase indicating which sections support the coding, e.g. "methods+findings"
+  coding_confidence: a decimal between 0.0 and 1.0
+  coding_notes: one or two sentences noting rationale or uncertainty
+
+Rules:
+- You MUST choose values from the listed options for each *_primary field. Do not invent labels.
+- If no option fits well, choose "other" and explain in coding_notes.
+- Return only valid JSON. No markdown fences, no extra text outside the JSON object.
+```
+
+**Trend-coding user prompt template** (`src/_run_haiku_and_coding_sample.py`):
+
+```text
+Title: {title}
+Authors: {authors}
+Year: {year}
+Volume: {volume}
+Issue: {issue}
+Article ID: {id}
+
+Article excerpt:
+{fulltext[:12000]}
+```
+
 ### End-of-session refresh (reports + GitHub)
 
 Use one command to clean temporary helper scripts, regenerate report CSVs from
@@ -274,7 +422,7 @@ Notes
 -----
 
 - Summarization and categorization with Ollama require a running local server and an installed model.
-- Claude summarization requires `ANTHROPIC_API_KEY`.
+- Claude summarization and Haiku-based trend-coding require `ANTHROPIC_API_KEY`.
 - Existing stored data is migrated on load from legacy keys like `text`, `summary`,
   `ollama_summary`, and `claude_summary`.
 - The embedding dependencies are larger than the base ingestion stack; install them only once and

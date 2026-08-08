@@ -5,6 +5,7 @@ from pathlib import Path
 from src.build_articles_csv import build_articles_csv
 from src.build_cluster_haiku_summary_csv import build_cluster_haiku_summary_csv
 from src.build_trends_dataset_csv import build_trends_dataset
+from src.metadata_corrections import apply_metadata_corrections
 from src.store import load_store, save_store
 
 
@@ -35,7 +36,7 @@ def cleanup_temp_files(repo_root: Path) -> list[str]:
 
 
 def git_commit_and_push(repo_root: Path, commit_message: str, push: bool) -> None:
-    add_result = run_cmd(["git", "add", "README.md", "src", "reports", "documentation"], cwd=repo_root)
+    add_result = run_cmd(["git", "add", "README.md", "src", "reports", "documentation", "data/metadata_corrections.csv"], cwd=repo_root)
     if add_result.returncode != 0:
         raise RuntimeError(f"git add failed:\n{add_result.stderr}")
 
@@ -89,8 +90,10 @@ def main() -> None:
 
     # Persist schema migrations to PKL/JSON mirrors before report generation.
     store = load_store()
+    corrections_applied = apply_metadata_corrections(store)
     save_store(store)
     print("STORE_SAVED", "data/processed/ijcscl.pkl", "data/processed/ijcscl.json")
+    print("CORRECTIONS_APPLIED", corrections_applied)
 
     articles_path = build_articles_csv(REPO_ROOT / "reports" / "articles.csv")
     cluster_path = build_cluster_haiku_summary_csv(REPO_ROOT / "reports" / "cluster_haiku_summary.csv")

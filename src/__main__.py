@@ -9,7 +9,7 @@ def main():
         "--root",
         type=str,
         default=None,
-        help="Root directory containing PDFs (defaults to config.RAW_PDF_DIR)",
+        help="Root directory containing PDFs (defaults to scanning data/raw 2006-2015 and data/raw 2016-2026)",
     )
     args = parser.parse_args()
 
