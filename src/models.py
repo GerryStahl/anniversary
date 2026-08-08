@@ -23,6 +23,29 @@ class Article:
     category: Optional[str] = None   # "a".."f" later
     editorial: Optional[str] = None
 
+    # Dimension coding for trend analysis (interpretability-first, evidence-based)
+    methodology_primary: Optional[str] = None
+    methodology_secondary: Optional[List[str]] = None
+    unit_of_analysis_primary: Optional[str] = None
+    unit_of_analysis_secondary: Optional[List[str]] = None
+    pedagogy_primary: Optional[str] = None
+    pedagogy_secondary: Optional[List[str]] = None
+    technology_primary: Optional[str] = None
+    technology_secondary: Optional[List[str]] = None
+    theory_primary: Optional[str] = None
+    theory_secondary: Optional[List[str]] = None
+    ai_llm_involvement_primary: Optional[str] = None
+    ai_llm_involvement_secondary: Optional[List[str]] = None
+
+    # Coding metadata
+    evidence_span: Optional[str] = None
+    coding_confidence: Optional[float] = None
+    extends_methodology: Optional[bool] = None
+    extends_pedagogy: Optional[bool] = None
+    extends_technology: Optional[bool] = None
+    extends_theory: Optional[bool] = None
+    coding_notes: Optional[str] = None
+
     embedding_ollama_summary: Optional[List[float]] = None
     embedding_haiku_summary: Optional[List[float]] = None
     embedding_fulltext: Optional[List[float]] = None

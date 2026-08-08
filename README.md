@@ -165,10 +165,33 @@ Generate the cluster report directly from the current PKL store:
 PYTHONPATH=$PWD python -m src.build_cluster_haiku_summary_csv
 ```
 
+### Build analysis-ready trends dataset (editorials excluded)
+
+Generate a trends dataset from the current PKL store with editorials excluded
+by default (`editorial == "editorial"` or `article_number == 0`):
+
+```bash
+PYTHONPATH=$PWD python -m src.build_trends_dataset_csv
+```
+
+This writes `reports/trends_dataset.csv` with metadata, year/editor-era,
+cluster/category values, and dimension-coding fields for:
+
+- methodology,
+- unit of analysis,
+- pedagogy,
+- technology,
+- theory,
+- AI/LLM involvement,
+- evidence span and coding confidence.
+
+Taxonomy and coding policy notes: `documentation/trend_taxonomy_v1.md`.
+
 ### End-of-session refresh (reports + GitHub)
 
 Use one command to clean temporary helper scripts, regenerate report CSVs from
-the current PKL store, and optionally commit/push to GitHub:
+the current PKL store (including `reports/trends_dataset.csv`), and optionally
+commit/push to GitHub:
 
 ```bash
 PYTHONPATH=$PWD python -m src.refresh_reports --commit --push
@@ -228,6 +251,8 @@ Files of interest
 - `src/regenerate_reports.py`: re-ingest raw PDFs and rebuild the store
 - `src/build_articles_csv.py`: builds `reports/articles.csv` from the PKL store
 - `src/build_cluster_haiku_summary_csv.py`: builds `reports/cluster_haiku_summary.csv` from the PKL store
+- `src/build_trends_dataset_csv.py`: builds `reports/trends_dataset.csv` with editorials excluded by default
+- `src/dimension_taxonomy.py`: v1 controlled taxonomy options for dimension coding
 - `src/refresh_reports.py`: end-of-session report refresh, cleanup, and optional git commit/push
 - `src/embed_texts.py`: embedding helpers
 - `src/cluster_vectors.py`: vector loading and clustering helpers
@@ -240,6 +265,7 @@ Reports and outputs
 - `data/processed/ijcscl.json`: JSON mirror without `fulltext` or embedding vectors
 - `reports/articles.csv`: metadata, categories, and both summary columns
 - `reports/cluster_haiku_summary.csv`: cluster labels, editorial flags, and metadata for all articles
+- `reports/trends_dataset.csv`: analysis-ready trends table with dimension-coding fields (editorials excluded)
 - `reports/summary_comparison.csv`: side-by-side Ollama vs. Claude comparison
 - `reports/categories.csv`: volume/category extract
 - `reports/volume_category_counts.png`: category counts by volume plot

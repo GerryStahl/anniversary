@@ -45,6 +45,46 @@ def load_store() -> ArticlesStore:
                 article.cluster_haiku_summary = None
             if "cluster_fulltext" not in article.__dict__:
                 article.cluster_fulltext = None
+
+            if "methodology_primary" not in article.__dict__:
+                article.methodology_primary = None
+            if "methodology_secondary" not in article.__dict__:
+                article.methodology_secondary = None
+            if "unit_of_analysis_primary" not in article.__dict__:
+                article.unit_of_analysis_primary = None
+            if "unit_of_analysis_secondary" not in article.__dict__:
+                article.unit_of_analysis_secondary = None
+            if "pedagogy_primary" not in article.__dict__:
+                article.pedagogy_primary = None
+            if "pedagogy_secondary" not in article.__dict__:
+                article.pedagogy_secondary = None
+            if "technology_primary" not in article.__dict__:
+                article.technology_primary = None
+            if "technology_secondary" not in article.__dict__:
+                article.technology_secondary = None
+            if "theory_primary" not in article.__dict__:
+                article.theory_primary = None
+            if "theory_secondary" not in article.__dict__:
+                article.theory_secondary = None
+            if "ai_llm_involvement_primary" not in article.__dict__:
+                article.ai_llm_involvement_primary = None
+            if "ai_llm_involvement_secondary" not in article.__dict__:
+                article.ai_llm_involvement_secondary = None
+
+            if "evidence_span" not in article.__dict__:
+                article.evidence_span = None
+            if "coding_confidence" not in article.__dict__:
+                article.coding_confidence = None
+            if "extends_methodology" not in article.__dict__:
+                article.extends_methodology = None
+            if "extends_pedagogy" not in article.__dict__:
+                article.extends_pedagogy = None
+            if "extends_technology" not in article.__dict__:
+                article.extends_technology = None
+            if "extends_theory" not in article.__dict__:
+                article.extends_theory = None
+            if "coding_notes" not in article.__dict__:
+                article.coding_notes = None
         return store
     return {}
 
