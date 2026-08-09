@@ -15,9 +15,9 @@ The Anniversary Project provides utilities for:
 - preparing vector representations (semantic embeddings) of the summaries,
 - performing clustering analysis of summary vectors.
 
-Development is done in Visual Studio Code. Journal articles are summarized with
-Claude Haiku and with local Ollama (`llama3.1:8b`), and sample trend-coding is
-run with Haiku using the controlled taxonomy in `src/dimension_taxonomy.py`.
+Development is done in Visual Studio Code using Claude Sonnet 4.6. Journal articles are summarized with
+Haiku ('claude-haiku-4-5') and with local Ollama (`llama3.1:8b`), and sample trend-coding is
+done by Haiku using the controlled taxonomy in `src/dimension_taxonomy.py`.
 
 Quick start
 -----------
