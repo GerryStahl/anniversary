@@ -134,6 +134,25 @@ def extract_basic_metadata_from_pdf(
         except (ValueError, IndexError):
             pass
 
+    # 1b. Parse newer Springer-style filename pattern:
+    #     YYYY_v{volume}i{issue}_10.1007_s11412-..._{title}.pdf
+    springer_match = re.match(r"^(?P<year>\d{4})_v(?P<volume>\d+)i(?P<issue>\d+)_", stem)
+    if springer_match:
+        try:
+            if metadata["year"] is None:
+                metadata["year"] = int(springer_match.group("year"))
+            if metadata["volume"] is None:
+                metadata["volume"] = int(springer_match.group("volume"))
+            if metadata["issue"] is None:
+                metadata["issue"] = int(springer_match.group("issue"))
+        except ValueError:
+            pass
+
+    if metadata["doi"] is None:
+        doi_in_name = re.search(r"(10\.1007_s11412-[0-9]{3}-[0-9]{4}-[0-9a-z]+)", stem, flags=re.IGNORECASE)
+        if doi_in_name:
+            metadata["doi"] = doi_in_name.group(1).replace("_", "/")
+
     # Special handling for editorials (article_number=0)
     if metadata.get("article_number") == 0:
         metadata["authors"] = "Gerry Stahl & Friedrich Hesse"
@@ -470,7 +489,57 @@ def extract_basic_metadata_from_pdf(
                 cleaned_authors = clean_authors_text(raw_auth, metadata.get("title") or "")
                 metadata["authors"] = cleaned_authors or None
 
-    # TODO: add DOI parsing as needed
+    # 3. Header-based fallback parsing for year/volume/issue, using first-page lines.
+    # User-provided cue: year appears in parentheses; volume appears before colon and page range.
+    header_text = ""
+    if blocks:
+        header_text = "\n".join(
+            (line.get("text") or "").strip()
+            for line in blocks[:60]
+            if (line.get("text") or "").strip()
+        )
+    if not header_text:
+        header_text = "\n".join(text.splitlines()[:100])
+
+    if metadata.get("year") is None or metadata.get("volume") is None:
+        m = re.search(
+            r"\((?P<year>(?:19|20)\d{2})\)\s*(?P<volume>\d{1,2})\s*:\s*\d+",
+            header_text,
+            flags=re.IGNORECASE,
+        )
+        if m:
+            if metadata.get("year") is None:
+                metadata["year"] = int(m.group("year"))
+            if metadata.get("volume") is None:
+                metadata["volume"] = int(m.group("volume"))
+
+    if (
+        metadata.get("year") is None
+        or metadata.get("volume") is None
+        or metadata.get("issue") is None
+    ):
+        m2 = re.search(
+            r"(?:Vol(?:ume)?\.?\s*(?P<volume>\d{1,2}))[^\n]*?(?:No\.?|Issue)\s*(?P<issue>\d{1,2})[^\n]*?\((?P<year>(?:19|20)\d{2})\)",
+            header_text,
+            flags=re.IGNORECASE,
+        )
+        if m2:
+            if metadata.get("year") is None:
+                metadata["year"] = int(m2.group("year"))
+            if metadata.get("volume") is None:
+                metadata["volume"] = int(m2.group("volume"))
+            if metadata.get("issue") is None:
+                metadata["issue"] = int(m2.group("issue"))
+
+    # 4. DOI fallback from full text/header when not captured from filename.
+    if metadata.get("doi") is None:
+        doi_in_text = re.search(
+            r"10\.1007/s11412-[0-9]{3}-[0-9]{4}-[0-9a-z]+",
+            header_text + "\n" + text[:4000],
+            flags=re.IGNORECASE,
+        )
+        if doi_in_text:
+            metadata["doi"] = doi_in_text.group(0)
 
     return metadata
 

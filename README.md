@@ -1,4 +1,4 @@
-anniversary
+20th Anniversary of ijCSCL
 ===========
 
 This project supports the 20th anniversary of the "International Journal of
@@ -11,7 +11,7 @@ The Anniversary Project provides utilities for:
 - extracting metadata and full text,
 - identifying editorial articles,
 - generating two families of summaries,
-- classifying articles,
+- classifying articles along several dimensions of CSCL (theory, methodology, technology, pedagogy),
 - preparing vector representations (semantic embeddings) of the summaries,
 - performing clustering analysis of summary vectors.
 
@@ -69,6 +69,13 @@ Apply the corrections without re-ingesting PDFs:
 
 ```bash
 PYTHONPATH=$PWD python -m src.apply_metadata_corrections
+```
+
+Rebuild both article index exports from the corrected store:
+
+```bash
+PYTHONPATH=$PWD python -m src.build_all_articles_index_csv
+PYTHONPATH=$PWD python -m src.build_all_articles_year_volume_issue_article_number_csv
 ```
 
 Corrections are also applied automatically whenever you run PDF ingestion or the

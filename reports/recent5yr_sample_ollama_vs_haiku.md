@@ -96,3 +96,7 @@ Same 5 articles (seed=42, 2022–2026 non-editorials).  Haiku model (summaries +
 - evidence_span: abstract, introduction, methodology, research questions
 - coding_confidence: 0.85
 - coding_notes: The study analyzes ten discussions with an LLM-based chatbot (LlamaLo) on contentious topics through qualitative examination of how the chatbot opens and sustains dialogic space. While interaction_analysis best captures the micro-analytic focus on dialogue quality and responsiveness, the primary object of analysis is the discourse traces (chatbot-user exchanges). The LLM serves as the primary conversational partner/interlocutor for learners, making llm_as_learning_partner the most appropriate AI classification. Confidence is high but not perfect due to the brief report format limiting methodological detail.
+
+
+
+Should secondary categories be listed as well, where there is a secondary selection?
