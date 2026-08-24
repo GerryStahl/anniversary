@@ -1,0 +1,62 @@
+N rows: 381
+Counts per era:
+  stahl_hesse_2006_2015: 195
+  ludvigsen_2016_2019: 71
+  rose_jarvela_2020_2023: 77
+  baker_reimann_2024_2027: 38
+
+[category] chi2 p=0.0477, dof=18, labels=7
+  biggest decreases/increases (share, first->last era):
+    a: 0.297 -> 0.132 (-0.166)
+    g: 0.144 -> 0.079 (-0.065)
+    e: 0.005 -> 0.053 (+0.048)
+    d: 0.108 -> 0.211 (+0.103)
+
+[cluster_haiku_summary] chi2 p=0.0207, dof=18, labels=7
+  biggest decreases/increases (share, first->last era):
+    0: 0.221 -> 0.079 (-0.142)
+    4: 0.123 -> 0.026 (-0.097)
+    6: 0.097 -> 0.158 (+0.060)
+    1: 0.154 -> 0.263 (+0.109)
+
+[methodology_primary] chi2 p=0.01073, dof=42, labels=15
+  biggest decreases/increases (share, first->last era):
+    experimental_quasi_experimental: 0.236 -> 0.105 (-0.131)
+    design_based_research: 0.144 -> 0.053 (-0.091)
+    inferential_statistics: 0.010 -> 0.079 (+0.069)
+    interaction_analysis: 0.205 -> 0.342 (+0.137)
+
+[unit_of_analysis_primary] chi2 p=0.1001, dof=21, labels=8
+  biggest decreases/increases (share, first->last era):
+    community_network: 0.072 -> 0.000 (-0.072)
+    classroom_cohort: 0.144 -> 0.079 (-0.065)
+    other: 0.005 -> 0.026 (+0.021)
+    dyad_small_group: 0.472 -> 0.632 (+0.160)
+
+[pedagogy_primary] chi2 p=0.01344, dof=24, labels=9
+  biggest decreases/increases (share, first->last era):
+    knowledge_building: 0.149 -> 0.053 (-0.096)
+    argumentation: 0.108 -> 0.053 (-0.055)
+    inquiry_problem_based_learning: 0.169 -> 0.211 (+0.041)
+    teacher_orchestrated_discussion: 0.087 -> 0.263 (+0.176)
+
+[technology_primary] chi2 p=0.02051, dof=27, labels=10
+  biggest decreases/increases (share, first->last era):
+    wiki_knowledge_base: 0.118 -> 0.026 (-0.092)
+    shared_workspace_canvas: 0.267 -> 0.184 (-0.082)
+    awareness_dashboard: 0.036 -> 0.079 (+0.043)
+    none_minimal_technology: 0.128 -> 0.316 (+0.188)
+
+[theory_primary] chi2 p=0.1584, dof=27, labels=10
+  biggest decreases/increases (share, first->last era):
+    knowledge_building_theory: 0.108 -> 0.026 (-0.081)
+    sociocultural: 0.467 -> 0.395 (-0.072)
+    distributed_cognition: 0.046 -> 0.132 (+0.085)
+    dialogic: 0.144 -> 0.237 (+0.093)
+
+[ai_llm_involvement_primary] chi2 p=0.337, dof=12, labels=5
+  biggest decreases/increases (share, first->last era):
+    none: 0.954 -> 0.921 (-0.033)
+    ai_supported_non_llm: 0.041 -> 0.026 (-0.015)
+    llm_supported_analytics: 0.005 -> 0.026 (+0.021)
+    llm_as_learning_partner: 0.000 -> 0.026 (+0.026)

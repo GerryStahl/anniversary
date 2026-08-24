@@ -1,0 +1,482 @@
+[
+  {
+    "id": "ijCSCL_1_1_0",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 0,
+    "editorial": "editorial",
+    "title": "ijCSCL—a journal for research in CSCL",
+    "coding": {
+      "methodology_primary": "other",
+      "unit_of_analysis_primary": "other",
+      "pedagogy_primary": "other",
+      "technology_primary": "other",
+      "theory_primary": "other",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "entire document",
+      "coding_confidence": 0.05,
+      "coding_notes": "This is an editorial/position paper introducing a new journal, not an empirical research study. It discusses the CSCL field's history, community, and future directions without presenting original research data, methodology, or findings. Standard CSCL research coding categories do not apply."
+    }
+  },
+  {
+    "id": "ijCSCL_1_1_1",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 1,
+    "editorial": null,
+    "title": "The CSCL community in its ﬁrst decade: development, continuity, connectivity",
+    "coding": {
+      "methodology_primary": "social_network_analysis",
+      "unit_of_analysis_primary": "community_network",
+      "pedagogy_primary": "community_of_practice",
+      "technology_primary": "none_minimal_technology",
+      "theory_primary": "communities_of_practice",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "methods+results; citation analysis, co-authorship networks, participant lists analyzed across 1995–2005 CSCL conferences",
+      "coding_confidence": 0.95,
+      "coding_notes": "This is a meta-analysis of the CSCL research community itself, not a study of collaborative learning in classrooms. The primary methodology combines bibliometric (citation, co-authorship) and social network analysis to map community structure, connectivity, and continuity. The unit of analysis is the CSCL community as a large-scale network of researchers. Theory is grounded in Lave & Wenger's communities of practice framework. No AI/LLM involvement."
+    }
+  },
+  {
+    "id": "ijCSCL_1_1_2",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 2,
+    "editorial": null,
+    "title": "A relational, indirect, meso-level approach to CSCL design in the next decade",
+    "coding": {
+      "methodology_primary": "other",
+      "unit_of_analysis_primary": "other",
+      "pedagogy_primary": "other",
+      "technology_primary": "other",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract + introduction + background",
+      "coding_confidence": 0.35,
+      "coding_notes": "This is a theoretical position paper and literature review, not an empirical study. It proposes conceptual frameworks (relational approach, meso-level analysis, affordances, infrastructure) for CSCL design but does not conduct primary research, collect data, or test hypotheses. No specific methodology, unit of analysis, pedagogy, or technology is studied; instead, the paper synthesizes European network outcomes to argue for future CSCL research directions."
+    }
+  },
+  {
+    "id": "ijCSCL_1_1_3",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 3,
+    "editorial": null,
+    "title": "Students assessing their own collaborative knowledge building",
+    "coding": {
+      "methodology_primary": "mixed_methods",
+      "unit_of_analysis_primary": "cross_level_multilevel",
+      "pedagogy_primary": "knowledge_building",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "knowledge_building_theory",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods (three conditions with Knowledge Forum), results on portfolio scores and discourse analysis",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study explicitly uses Knowledge Building theory and Knowledge Forum (a wiki-like collaborative knowledge repository). Mixed methods combines quantitative portfolio scores and qualitative discourse analysis. Cross-level analysis examines both individual student understanding and collective knowledge advances through portfolio assessment. No AI/LLM involvement evident in 2006 publication."
+    }
+  },
+  {
+    "id": "ijCSCL_1_1_4",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 4,
+    "editorial": null,
+    "title": "Situating CoWeb: a scholarship of application",
+    "coding": {
+      "methodology_primary": "design_based_research",
+      "unit_of_analysis_primary": "classroom_cohort",
+      "pedagogy_primary": "collaboration_scripts",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods (four case studies across Georgia Tech courses)",
+      "coding_confidence": 0.92,
+      "coding_notes": "The paper explicitly frames itself as design-based research with a 'scholarship of application' approach, iteratively developing and deploying CoWeb (a Wiki) across multiple authentic classroom contexts. While individual learner outcomes are examined, the primary unit is the classroom cohort and disciplinary culture. CoWeb is a structured collaborative wiki designed to scaffold group knowledge-building; sociocultural theory grounds the analysis of how medium, culture, and learning interact."
+    }
+  },
+  {
+    "id": "ijCSCL_1_1_5",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 5,
+    "editorial": null,
+    "title": "R-U-Typing-2-Me? Evolving a chat tool to increase understanding in learning activities",
+    "coding": {
+      "methodology_primary": "design_based_research",
+      "unit_of_analysis_primary": "artifact_discourse_trace",
+      "pedagogy_primary": "teacher_orchestrated_discussion",
+      "technology_primary": "synchronous_chat_video",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "introduction, methods, results across case studies",
+      "coding_confidence": 0.85,
+      "coding_notes": "Study employs iterative design-based approach (Collins et al., 2004) testing successive versions of Mediated Chat tool in naturalistic online courses. Primary analysis focuses on chat transcripts and interaction patterns (artifact/discourse) to identify and resolve 'Chat Confusion.' Grounded in 3C Collaboration Model and groupware theory (sociocultural framing of communication, coordination, cooperation). No AI/LLM involvement detected in 2006 publication."
+    }
+  },
+  {
+    "id": "ijCSCL_1_1_6",
+    "year": 2006,
+    "volume": 1,
+    "issue": 1,
+    "article_number": 6,
+    "editorial": null,
+    "title": "A dialogic understanding of the relationship between CSCL and teaching thinking skills",
+    "coding": {
+      "methodology_primary": "content_analysis",
+      "unit_of_analysis_primary": "artifact_discourse_trace",
+      "pedagogy_primary": "other",
+      "technology_primary": "none_minimal_technology",
+      "theory_primary": "dialogic",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, theoretical sections",
+      "coding_confidence": 0.75,
+      "coding_notes": "This is a theoretical/conceptual paper using critical literature review and case studies to argue for dialogic theory in CSCL. Methodology is primarily conceptual analysis and literature review rather than empirical data collection; unit of analysis is theoretical frameworks and discourse about thinking skills. Pedagogy is dialogic theory applied to teaching thinking, which does not fit standard CSCL pedagogies listed. Technology is peripheral to the theoretical argument."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_0",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 0,
+    "editorial": "editorial",
+    "title": "Building knowledge in the classroom, building knowledge in the CSCL community",
+    "coding": {
+      "methodology_primary": "other",
+      "unit_of_analysis_primary": "other",
+      "pedagogy_primary": "other",
+      "technology_primary": "other",
+      "theory_primary": "other",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "entire document",
+      "coding_confidence": 0.15,
+      "coding_notes": "This is an editorial/introduction to a journal issue, not an empirical research article. It describes the scope and themes of CSCL research and previews articles in the issue without presenting original methodology, data, or findings. No single study methodology, unit of analysis, pedagogy, or technology can be coded."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_1",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 1,
+    "editorial": null,
+    "title": "Approaching institutional contexts: Systemic versus dialogic research in CSCL",
+    "coding": {
+      "methodology_primary": "ethnographic_case_study",
+      "unit_of_analysis_primary": "artifact_discourse_trace",
+      "pedagogy_primary": "collaboration_scripts",
+      "technology_primary": "none_minimal_technology",
+      "theory_primary": "dialogic",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, systemic vs. dialogic section",
+      "coding_confidence": 0.72,
+      "coding_notes": "This is a theoretical/methodological review article that critiques systemic approaches and advocates for dialogic research in CSCL. It analyzes existing studies rather than conducting primary empirical research. The primary contribution is conceptual—distinguishing systemic vs. dialogic analytical stances—making it closest to ethnographic/case study methodology in its emphasis on emergent, context-sensitive analysis of institutional practices. The article emphasizes discourse and institutional context but does not itself employ a specific technology focus."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_2",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 2,
+    "editorial": null,
+    "title": "Collaborative knowledge building using the Design Principles Database",
+    "coding": {
+      "methodology_primary": "design_based_research",
+      "unit_of_analysis_primary": "community_network",
+      "pedagogy_primary": "knowledge_building",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "knowledge_building_theory",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods, discussion",
+      "coding_confidence": 0.92,
+      "coding_notes": "The study describes iterative design and refinement of the Design Principles Database (DPD) as a collaborative knowledge-building infrastructure for a community of learning scientists. The primary focus is on how the DPD supports community-level knowledge building through cycles of contribution, discussion, and refinement—core to Scardamalia & Bereiter's knowledge-building theory. Wiki technology enables collaborative editing of principles. The analysis demonstrates design-based research methodology applied to support community knowledge practices."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_3",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 3,
+    "editorial": null,
+    "title": "Co-reﬂection in online learning: Collaborative critical thinking as narrative",
+    "coding": {
+      "methodology_primary": "narrative_analysis",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedagogy_primary": "inquiry_problem_based_learning",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, conceptual background, methods (implied)",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study explicitly uses narrative analysis as primary method to examine co-reflection in a dyad of two graduate students. Pedagogical approach emphasizes action research and inquiry learning grounded in constructivist/sociocultural theory (Vygotsky, Wells). Wiki-style collaborative software is the primary technology. No AI/LLM involvement detected."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_4",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 4,
+    "editorial": null,
+    "title": "Knowledge-building activity structures in Japanese elementary science pedagogy",
+    "coding": {
+      "methodology_primary": "design_based_research",
+      "unit_of_analysis_primary": "classroom_cohort",
+      "pedagogy_primary": "knowledge_building",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "knowledge_building_theory",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods description",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study explicitly reports 'design studies on two science lessons in two consecutive years' with 'progressive refinement of activity structures,' characteristic of design-based research. Knowledge Forum (a wiki-like knowledge repository) is the primary CSCL technology. The work is grounded in Scardamalia's knowledge-building theory and determinants. No AI/LLM involvement detected in the excerpt."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_5",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 5,
+    "editorial": null,
+    "title": "Supporting synchronous collaborative learning: A generic, multi-dimensional model",
+    "coding": {
+      "methodology_primary": "design_based_research",
+      "unit_of_analysis_primary": "artifact_discourse_trace",
+      "pedagogy_primary": "collaboration_scripts",
+      "technology_primary": "shared_workspace_canvas",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "introduction, architecture, theoretical framework",
+      "coding_confidence": 0.78,
+      "coding_notes": "This is a system design paper describing Omega+, a generic synchronous CSCL environment. The primary focus is on iterative design of an intervention (model-based genericity applied to collaborative learning dimensions) in naturalistic educational settings. The paper emphasizes scaffolding through structured interaction protocols, process models, and shared artifacts—characteristic of collaboration scripts. While the excerpt does not detail empirical evaluation results, it frames evaluation as integral to the design process. Confidence is moderate because the excerpt cuts off before the evaluation section, and the paper's primary contribution is architectural/theoretical rather than empirical findings."
+    }
+  },
+  {
+    "id": "ijCSCL_1_2_6",
+    "year": 2006,
+    "volume": 1,
+    "issue": 2,
+    "article_number": 6,
+    "editorial": null,
+    "title": "Students assessing their own collaborative knowledge building",
+    "coding": {
+      "methodology_primary": "mixed_methods",
+      "unit_of_analysis_primary": "classroom_cohort",
+      "pedagogy_primary": "knowledge_building",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "knowledge_building_theory",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods (implied by design description)",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study examines three conditions (Knowledge Forum only, with portfolios, with portfolios+principles) across three 9th-grade classes, combining quantitative portfolio scores and qualitative discourse analysis. Knowledge Forum is a collaborative knowledge repository; knowledge building is the explicit theoretical and pedagogical framework. No AI/LLM involvement evident in the excerpt."
+    }
+  },
+  {
+    "id": "ijCSCL_1_3_0",
+    "year": 2006,
+    "volume": 1,
+    "issue": 3,
+    "article_number": 0,
+    "editorial": "editorial",
+    "title": "Focusing on participation in group meaning making",
+    "coding": {
+      "methodology_primary": "other",
+      "unit_of_analysis_primary": "other",
+      "pedagogy_primary": "other",
+      "technology_primary": "other",
+      "theory_primary": "other",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "entire editorial",
+      "coding_confidence": 0.15,
+      "coding_notes": "This is an editorial/position paper introducing a journal issue and proposing a research agenda, not an empirical study. It does not report original research with a specific methodology, unit of analysis, pedagogy, or technology focus. The editorial discusses multiple approaches (SNA, anchored discussion, networked handhelds, collaboration scripts) but does not itself conduct research."
+    }
+  },
+  {
+    "id": "ijCSCL_1_3_1",
+    "year": 2006,
+    "volume": 1,
+    "issue": 3,
+    "article_number": 1,
+    "editorial": null,
+    "title": "Technology affordances for intersubjective meaning making: A research agenda for CSCL",
+    "coding": {
+      "methodology_primary": "other",
+      "unit_of_analysis_primary": "other",
+      "pedagogy_primary": "knowledge_building",
+      "technology_primary": "other",
+      "theory_primary": "other",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, epistemologies section",
+      "coding_confidence": 0.45,
+      "coding_notes": "This is a position/agenda-setting paper, not an empirical study. It proposes a research framework around technology affordances and intersubjective meaning making rather than reporting methodology or findings. The paper surveys epistemologies (constructivist, socio-cognitive, participatory, knowledge building, activity theory, distributed cognition) and discusses forms of computer support, but does not itself conduct research. Coded as 'other' for methodology (theoretical/conceptual analysis), unit of analysis (meta-level discussion of CSCL field), and technology (discusses multiple forms without focusing on one). Theory is mixed across multiple traditions, so 'other' is most appropriate."
+    }
+  },
+  {
+    "id": "ijCSCL_1_3_2",
+    "year": 2006,
+    "volume": 1,
+    "issue": 3,
+    "article_number": 2,
+    "editorial": null,
+    "title": "The affordance of anchored discussion for the collaborative processing of academic texts",
+    "coding": {
+      "methodology_primary": "interaction_analysis",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedag_primary": "collaboration_scripts",
+      "technology_primary": "asynchronous_forum",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "methods, results, discussion",
+      "coding_confidence": 0.85,
+      "coding_notes": "Study compares anchored discussion vs. traditional forum through systematic coding of message content and collaborative patterns (interaction analysis). Primary focus is on small-group asynchronous discussion; anchored discussion system provides structural scaffolding (collaboration scripts). Sociocultural framing evident in emphasis on social interaction, grounding, and shared understanding. No AI/LLM involvement detected."
+    }
+  },
+  {
+    "id": "ijCSCL_1_3_3",
+    "year": 2006,
+    "volume": 1,
+    "issue": 3,
+    "article_number": 3,
+    "editorial": null,
+    "title": "Code talk: Student discourse and participation with networked handhelds",
+    "coding": {
+      "methodology_primary": "interaction_analysis",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedagogy_primary": "collaboration_scripts",
+      "technology_primary": "shared_workspace_canvas",
+      "theory_primary": "distributed_cognition",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods description",
+      "coding_confidence": 0.85,
+      "coding_notes": "Study uses detailed examination of students' utterances and network transactions during problem-solving to interpret participation and learning. Focus on small-group (2–4 students) collaboration with networked handhelds supporting shared mathematical objects. Distributed cognition framework evident in discussion of 'distributed intelligence' and Hutchins' work on collaborative cognition across people and tools. Confidence reduced slightly due to excerpt truncation at methods section."
+    }
+  },
+  {
+    "id": "ijCSCL_1_3_4",
+    "year": 2006,
+    "volume": 1,
+    "issue": 3,
+    "article_number": 4,
+    "editorial": null,
+    "title": "Studying participation networks in collaboration using mixed methods",
+    "coding": {
+      "methodology_primary": "mixed_methods",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedagogy_primary": "community_of_practice",
+      "technology_primary": "asynchronous_forum",
+      "theory_primary": "communities_of_practice",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, method section",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study explicitly combines social network analysis with qualitative and quantitative analysis across three case studies (blended, distance, synchronous). Primary focus is on participatory interaction patterns in groups using Lave & Wenger's situated learning framework. No AI/LLM involvement detected."
+    }
+  },
+  {
+    "id": "ijCSCL_1_4_0",
+    "year": 2006,
+    "volume": 1,
+    "issue": 4,
+    "article_number": 0,
+    "editorial": "editorial",
+    "title": "Social practices of",
+    "coding": {
+      "methodology_primary": "other",
+      "unit_of_analysis_primary": "other",
+      "pedagogy_primary": "other",
+      "technology_primary": "other",
+      "theory_primary": "communities_of_practice",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "entire editorial",
+      "coding_confidence": 0.3,
+      "coding_notes": "This is an editorial/position paper introducing a journal issue, not an empirical study. It synthesizes four research articles on social practices in CSCL without conducting original research itself. The primary contribution is theoretical framing around Lave & Wenger's communities of practice and the concept of social practices in collaborative learning contexts."
+    }
+  },
+  {
+    "id": "ijCSCL_1_4_1",
+    "year": 2006,
+    "volume": 1,
+    "issue": 4,
+    "article_number": 1,
+    "editorial": null,
+    "title": "From dialogue to monologue and back: Middle spaces in computer-mediated learning",
+    "coding": {
+      "methodology_primary": "ethnographic_case_study",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedagogy_primary": "collaboration_scripts",
+      "technology_primary": "shared_workspace_canvas",
+      "theory_primary": "dialogic",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, theoretical framework, case study methodology",
+      "coding_confidence": 0.82,
+      "coding_notes": "The paper develops a theoretical framework grounded in two detailed case studies of students engaging with computer-mediated science learning activities. The methodology is qualitative and developmental, examining learning trajectories through in-depth observation of small groups. While the excerpt emphasizes theoretical development, the authors explicitly state they 'examine in detail two cases' using a 'developmental and historical account,' characteristic of ethnographic case study work. Pedagogy centers on structured dialogue and monologue transitions rather than explicit scripts, but the emphasis on 'semiotic pivots' and 'progressive tools and activities' suggests design of structured collaboration. Technology focus is somewhat ambiguous from excerpt alone, but the discussion of 'information' vs. 'communication' interfaces and tools supporting transitions suggests shared workspace design."
+    }
+  },
+  {
+    "id": "ijCSCL_1_4_2",
+    "year": 2006,
+    "volume": 1,
+    "issue": 4,
+    "article_number": 2,
+    "editorial": null,
+    "title": "Knowledge building in mathematics: Supporting collaborative learning in pattern problems",
+    "coding": {
+      "methodology_primary": "content_analysis",
+      "unit_of_analysis_primary": "artifact_discourse_trace",
+      "pedagogy_primary": "knowledge_building",
+      "technology_primary": "wiki_knowledge_base",
+      "theory_primary": "knowledge_building_theory",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, methods description",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study analyzes student-generated Knowledge Forum notes (artifacts/discourse) using systematic coding of collaborative problem-solving episodes. Primary focus is on content of student contributions (rules found, justifications provided) rather than interaction sequences or statistical hypothesis testing. Knowledge Forum is a wiki-like knowledge repository aligned with Scardamalia & Bereiter's knowledge-building theory."
+    }
+  },
+  {
+    "id": "ijCSCL_1_4_3",
+    "year": 2006,
+    "volume": 1,
+    "issue": 4,
+    "article_number": 3,
+    "editorial": null,
+    "title": "Electronic [re]constitution of groups: Group dynamics from face-to-face to an online setting",
+    "coding": {
+      "methodology_primary": "ethnographic_case_study",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedagogy_primary": "collaboration_scripts",
+      "technology_primary": "asynchronous_forum",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, background theory, methods implied",
+      "coding_confidence": 0.82,
+      "coding_notes": "Study uses case study approach examining group dynamics across face-to-face and online contexts over 3 years with physiotherapy students. Primary focus is on how groups function and interact in blended learning; asynchronous forums are the online medium. Sociocultural framing evident in emphasis on social presence, group cohesion, and socio-emotional factors mediating learning. Confidence reduced slightly due to limited methodological detail in excerpt, but case study design and qualitative focus on group processes are clear."
+    }
+  },
+  {
+    "id": "ijCSCL_1_4_4",
+    "year": 2006,
+    "volume": 1,
+    "issue": 4,
+    "article_number": 4,
+    "editorial": null,
+    "title": "Consistent practices in artifact-mediated collaboration",
+    "coding": {
+      "methodology_primary": "interaction_analysis",
+      "unit_of_analysis_primary": "dyad_small_group",
+      "pedagogy_primary": "other",
+      "technology_primary": "shared_workspace_canvas",
+      "theory_primary": "sociocultural",
+      "ai_llm_involvement_primary": "none",
+      "evidence_span": "abstract, introduction, materials and methods",
+      "coding_confidence": 0.92,
+      "coding_notes": "Study uses video analysis and ethnomethodological observation of dyads appropriating paper-based shared representations to identify invariant communicative practices. Pedagogy is not explicitly learning-focused but rather examines collaborative interaction practices; no clear fit to listed pedagogy options. Technology is paper-based flexible media (shared workspace), not digital."
+    }
+  }
+]

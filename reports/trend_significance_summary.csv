@@ -1,0 +1,2 @@
+field,value,n_years,year_start,year_end,total_count,nonzero_years,slope_per_year,linregress_r,linregress_p,linregress_q_fdr_bh,spearman_rho,spearman_p,kendall_tau,kendall_p
+methodology_primary,ethnographic_case_study,20,2006,2025,38,17,-0.15789473684210525,-0.7220460831392708,0.00032483750024417515,0.023063462517336437,-0.7252710756806956,0.00029630465500282927,-0.5576120282858583,0.001324027388144381

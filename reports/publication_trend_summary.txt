@@ -1,0 +1,7 @@
+Publication-ready trend summary
+Total retained findings: 6
+Counts by analysis family:
+  - count_linear: 1
+  - embedding_drift: 1
+  - mann_kendall_theilsen: 2
+  - share_linear: 2

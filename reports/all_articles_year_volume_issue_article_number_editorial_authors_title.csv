@@ -63,7 +63,7 @@ year,volume,issue,article_number,editorial,authors,title
 2008,3,3,3,,Nancy Ares,Cultural practices in networked classroom learning environments
 2008,3,3,4,,Judith Schoonenboom,The effect of a script and a structured interface in grounding discussions
 2008,3,3,5,,Diler Oner,Supporting students’ participation in authentic proof activities in computer supported collaborative learning (CSCL) environments
-2008,3,3,6,editorial,Anna Sfard,Book review: Exploring thinking as communicating in CSCL
+2008,3,3,6,book review,Anna Sfard,Book review: Exploring thinking as communicating in CSCL
 2008,3,4,0,editorial,Gerry Stahl & Friedrich Hesse,CSCL practices
 2008,3,4,1,,David Hung & Kenneth Y. T. Lim & Der-Thanq Victor Chen & Thiam Seng Koh,Leveraging online communities in fostering adaptive schools
 2008,3,4,2,,Andreas Lund,The right tool for the wrong task? Match and mismatch between first and second stimulus in double stimulation
@@ -312,7 +312,7 @@ year,volume,issue,article_number,editorial,authors,title
 2019,14,3,1,,Camillia Matuk & Michael Tissenbaum,Real-time orchestrational technologies in
 2019,14,3,2,,Anouschka van Leeuwen & Nikol Rummel & Tamara van Gog,What information should CSCL teacher dashboards provide to help teachers interpret CSCL situations?
 2019,14,3,7,,Roberto Martinez-Maldonado,Correction to: A handheld classroom dashboard: teachers’ perspectives on the use of real-time collaborative learning analytics
-2019,14,3,,,Roberto Martinez-Maldonado,A handheld classroom dashboard: Teachers’ perspectives on the use of real-time collaborative learning analytics
+2019,14,3,,corrected,Roberto Martinez-Maldonado,A handheld classroom dashboard: Teachers’ perspectives on the use of real-time collaborative learning analytics
 2019,14,3,,,Libby Gerard & Ady Kidron,Guiding collaborative revision of science explanations
 2019,14,3,,,Nikol Rummel & Vincent Aleven & Jennifer K. Olsen,It is not either or: An initial investigation into combining collaborative and individual learning using an ITS
 2019,14,3,,,Mike Tissenbaum & Jim Slotta,Supporting classroom orchestration with real-time feedback: A role for teacher dashboards and real-time agents
@@ -424,7 +424,7 @@ year,volume,issue,article_number,editorial,authors,title
 2024,19,3,1,editorial,Michael Baker & Peter Reimann,CSCL: a learning and collaboration science?
 2024,19,3,2,,Sini Davies & Pirita Seitamaa-Hakkarainen & Kai Hakkarainen,Knowledge creation through maker practices and the role of teacher and peer support in collaborative invention projects
 2024,19,3,3,,Bo Yang,Combining Danmaku and Discussion Boards: Toward A Scalable and Sociable Environment for Mass Collaboration in MOOCs
-2024,19,3,4,,Laura Brandl & Matthias Stadler & Constanze Richters & Anika Radkowitsch & Martin R. Fischer & Ralf Schmidmaier & Frank Fischer,Collaborative Problem‑Solving in Knowledge‑Rich Domains: A Multi‑Study Structural Equation Model
+2024,19,3,4,corrected,Laura Brandl & Matthias Stadler & Constanze Richters & Anika Radkowitsch & Martin R. Fischer & Ralf Schmidmaier & Frank Fischer,Collaborative Problem‑Solving in Knowledge‑Rich Domains: A Multi‑Study Structural Equation Model
 2024,19,3,5,,Andrew Zamecnik & Georg Grossmann & Djazia Ladjal & Abelardo Pardo,The perceptions of task cohesion in collaborative learning teams
 2024,19,4,0,editorial,Michael Baker & Peter Reimann,Editorial Notes: Revitalising foundational concepts
 2024,19,4,1,,Anders I. Mørch & Renate Andersen & Siv Eie & Louise Mifsud,Emergent group understanding: Investigating intersubjectivity in sociotechnical interdependencies
@@ -436,7 +436,7 @@ year,volume,issue,article_number,editorial,authors,title
 2025,20,1,4,,Sebastian Strauss & Isis Tunnigkeit & Julia Eberle & Arlind Avdullahu & Nikol Rummel,Comparing the effects of a collaboration script and collaborative reflection on promoting knowledge about good collaboration and effective interaction
 2025,20,1,5,,Morgan M. Fong & David DeLiema & Virginia J. Flood & Oia Walker-van Aalst,Correction: Contesting sociocomputational norms: computer programming instructors and students’ stancetaking around refactoring
 2025,20,1,6,,Laura Brandl & Matthias Stadler & Constanze Richters & Anika Radkowitsch & Martin R. Fischer & Ralf Schmidmaier & Frank Fischer,Correction: Collaborative Problem‑Solving in Knowledge‑Rich Domains: A Multi‑Study Structural Equation Model
-2025,20,1,,,Morgan M. Fong & David DeLiema & Virginia J. Flood & Oia Walker-van Aalst,Contesting sociocomputational norms: Computer programming instructors and students’ stancetaking around refactoring
+2025,20,1,,corrected,Morgan M. Fong & David DeLiema & Virginia J. Flood & Oia Walker-van Aalst,Contesting sociocomputational norms: Computer programming instructors and students’ stancetaking around refactoring
 2025,20,1,,,Shuowen An & Si Zhang & Zhihui Cai & Wei Pan & Mingwei Li & Mingwen Tong,"Revealing the interplay of cognitive, meta‑cognitive, and social processes in university students’ collaborative problem solving: a three‑stage analytical framework"
 2025,20,2,0,editorial,Michael Baker & Peter Reimann,Editorial notes: Core issues in CSCL research
 2025,20,2,1,,Kateryna Zabolotna & Liv Nøhr & Megumi Iwata & Daniel Spikol & Jonna Malmberg & Hanna Jarvenoja,How does collaborative task design shape collaborative knowledge construction and group‑level regulation of learning? A study of secondary school students’ interactions in two varied tasks
@@ -466,6 +466,6 @@ year,volume,issue,article_number,editorial,authors,title
 2026,21,2,0,editorial,Michael J. Baker & Peter Reimann,Editorial Notes: the CSCL universe is still expanding
 2026,21,2,1,,Taehyun Kim & Mike Tissenbaum,Understanding when anger becomes productive or destructive in collaborative educational games
 2026,21,2,2,,Xinran Zhu & Bodong Chen & David DeLiema,Advancing collaborative discourse through knowledge synthesis
-2026,21,2,3,,Mohammed Saqr & Sonsoles Lopez-Pernas & Tiina Tormanen,A temporal network approach to reveal the longitudinal dynamics of CSCL group regulation and productive collaboration
+2026,21,2,3,corrected,Mohammed Saqr & Sonsoles Lopez-Pernas & Tiina Tormanen,A temporal network approach to reveal the longitudinal dynamics of CSCL group regulation and productive collaboration
 2026,21,2,4,,Mohammed Saqr & Sonsoles Lopez-Pernas,Correction: A temporal network approach to reveal the longitudinal dynamics of CSCL group regulation and productive collaboration
 2026,21,2,,,Ge Wang & Roy Pea,Co‑constructing critical data literacy in families: A technology‑mediated learning perspective

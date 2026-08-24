@@ -1,0 +1,9 @@
+{
+  "source_field": "summary_haiku",
+  "embedding_field": "embedding_haiku_summary",
+  "cluster_field": "cluster_haiku_summary",
+  "model_name": "all-MiniLM-L6-v2",
+  "k": 2,
+  "n_articles": 470,
+  "embedding_dim": 384
+}

@@ -1,0 +1,7 @@
+analysis_family,field,value,direction,effect_metric,p_value,q_value_fdr,note
+count_linear,methodology_primary,ethnographic_case_study,down,slope=-0.1579,0.0003248,0.02306,FDR-significant linear trend in yearly counts
+embedding_drift,embedding_haiku_summary,centroid_distance_to_2006,up,2006=0; 2025=0.09785; delta=0.09785,,,Descriptive semantic drift of yearly embedding centroids
+mann_kendall_theilsen,cluster_haiku_summary,1,up,tau=0.5752; theil=0.01317,0.0004027,0.01981,FDR-significant monotonic trend
+mann_kendall_theilsen,methodology_primary,ethnographic_case_study,down,tau=-0.5669; theil=-0.007946,0.000558,0.01981,FDR-significant monotonic trend
+share_linear,methodology_primary,ethnographic_case_study,down,share_slope=-0.007861,0.0003333,0.02366,FDR-significant linear trend in yearly shares
+share_linear,cluster_haiku_summary,1,up,share_slope=0.01361,0.000971,0.03447,FDR-significant linear trend in yearly shares

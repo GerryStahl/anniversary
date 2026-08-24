@@ -1,0 +1,62 @@
+dimension_key,dimension_name,option_order,option,gloss
+methodology,analysis_methodology,1,descriptive_statistics,"Frequencies, means, distributions; no inferential testing"
+methodology,analysis_methodology,2,inferential_statistics,"Hypothesis testing, ANOVA, regression, correlation with significance"
+methodology,analysis_methodology,3,multilevel_modeling,Hierarchical or mixed-effects models accounting for nested data
+methodology,analysis_methodology,4,social_network_analysis,Graph-based analysis of interaction ties and centrality
+methodology,analysis_methodology,5,discourse_analysis,Linguistic or rhetorical analysis of talk and text
+methodology,analysis_methodology,6,interaction_analysis,Micro-analytic coding of moment-by-moment collaborative episodes
+methodology,analysis_methodology,7,computational_linguistics_nlp,"Automated text processing: topic models, embeddings, NLP pipelines"
+methodology,analysis_methodology,8,sequence_process_mining,Temporal or sequential pattern extraction from log/trace data
+methodology,analysis_methodology,9,learning_analytics,Trace data from digital platforms used to model or predict learning
+methodology,analysis_methodology,10,experimental_quasi_experimental,Controlled or quasi-controlled comparison of conditions or groups
+methodology,analysis_methodology,11,design_based_research,Iterative design and study of an intervention in naturalistic settings
+methodology,analysis_methodology,12,ethnographic_case_study,In-depth qualitative study of a bounded context with observation or interview
+methodology,analysis_methodology,13,mixed_methods,Combines quantitative and qualitative data collection and analysis
+methodology,analysis_methodology,14,content_analysis,"Systematic coding of documents, posts, or artifacts using a scheme"
+methodology,analysis_methodology,15,other,Does not fit any above; explain in coding_notes
+unit_of_analysis,unit_of_analysis,1,individual_learner,Outcomes or behaviors of single students
+unit_of_analysis,unit_of_analysis,2,dyad_small_group,Pairs or groups of 2–6 collaborating learners
+unit_of_analysis,unit_of_analysis,3,classroom_cohort,A whole class or cohort treated as the analytical unit
+unit_of_analysis,unit_of_analysis,4,teacher_facilitation,"Teacher moves, awareness, or orchestration decisions"
+unit_of_analysis,unit_of_analysis,5,community_network,"Large-scale community, online network, or population of actors"
+unit_of_analysis,unit_of_analysis,6,artifact_discourse_trace,"Documents, posts, scripts, or logs analyzed as the primary object"
+unit_of_analysis,unit_of_analysis,7,cross_level_multilevel,Simultaneously analyzes individual and group (or group and class) levels
+unit_of_analysis,unit_of_analysis,8,other,Does not fit any above; explain in coding_notes
+pedagogy,pedagogical_approach,1,knowledge_building,Scardamalia & Bereiter model: community-driven idea improvement
+pedagogy,pedagogical_approach,2,collaboration_scripts,"Structured roles, turn sequences, or scripts regulating collaboration"
+pedagogy,pedagogical_approach,3,inquiry_problem_based_learning,Open-ended questions or problems drive learning activity
+pedagogy,pedagogical_approach,4,argumentation,"Explicit construction, critique, or negotiation of claims and evidence"
+pedagogy,pedagogical_approach,5,peer_review_feedback,Students give or receive structured feedback on each other's work
+pedagogy,pedagogical_approach,6,teacher_orchestrated_discussion,Teacher actively shapes whole-class or small-group dialogue
+pedagogy,pedagogical_approach,7,self_peer_regulation,"Students monitor, plan, or regulate their own or each other's learning"
+pedagogy,pedagogical_approach,8,community_of_practice,Learning through participation in an authentic professional community
+pedagogy,pedagogical_approach,9,other,Does not fit any above; explain in coding_notes
+technology,technological_support,1,asynchronous_forum,"Discussion boards, blogs, or thread-based tools used across time"
+technology,technological_support,2,synchronous_chat_video,"Real-time text chat, video conferencing, or live messaging"
+technology,technological_support,3,wiki_knowledge_base,"Collaboratively edited knowledge repositories (e.g., Knowledge Forum, wikis)"
+technology,technological_support,4,shared_workspace_canvas,"Co-editing tools, shared whiteboards, or collaborative document spaces"
+technology,technological_support,5,tabletop_tangible_interface,Physical or tangible computing surfaces supporting face-to-face collaboration
+technology,technological_support,6,awareness_dashboard,Tools that display group activity or progress to learners or teachers
+technology,technological_support,7,collaboration_scripting_tools,"Software that enacts roles, sequences, or prompts for structured collaboration"
+technology,technological_support,8,multimodal_sensors_eye_tracking,"Physiological, gaze, gesture, or movement sensors capturing embodied interaction"
+technology,technological_support,9,none_minimal_technology,Technology is not the focus; collaboration is face-to-face or technology-peripheral
+technology,technological_support,10,other,Does not fit any above; explain in coding_notes
+theory,theoretical_framework,1,sociocultural,Vygotsky-lineage: learning as socially and culturally mediated activity
+theory,theoretical_framework,2,dialogic,Bakhtin-lineage: meaning made through multi-voiced dialogue and uptake
+theory,theoretical_framework,3,socio_cognitive,Piaget-influenced: collaborative conflict and explanation drive cognitive change
+theory,theoretical_framework,4,knowledge_building_theory,Scardamalia & Bereiter: progressive discourse advances collective knowledge
+theory,theoretical_framework,5,activity_theory,Engeström: contradictions within activity systems drive development
+theory,theoretical_framework,6,communities_of_practice,Lave & Wenger: learning through legitimate peripheral participation
+theory,theoretical_framework,7,distributed_cognition,"Hutchins: cognition is spread across people, artifacts, and environment"
+theory,theoretical_framework,8,information_processing,"Cognitive load, working memory, schema; individual mental architecture"
+theory,theoretical_framework,9,critical_pragmatic,"Power, equity, or justice lens on participation and knowledge"
+theory,theoretical_framework,10,other,Does not fit any above; explain in coding_notes
+ai_llm_involvement,ai_llm_involvement,1,none,No AI or LLM involvement in the study design or technology
+ai_llm_involvement,ai_llm_involvement,2,ai_supported_non_llm,"AI mechanisms used (e.g., rule-based agents, recommender systems, ML classifiers) but not LLMs"
+ai_llm_involvement,ai_llm_involvement,3,llm_supported_writing,"LLM used by participants to draft, edit, or generate text"
+ai_llm_involvement,ai_llm_involvement,4,llm_supported_feedback,LLM provides automated formative feedback to learners
+ai_llm_involvement,ai_llm_involvement,5,llm_supported_assessment,"LLM used to score, classify, or evaluate learning artifacts"
+ai_llm_involvement,ai_llm_involvement,6,llm_supported_orchestration,"LLM acts as a conversational agent, tutor, or discussion partner"
+ai_llm_involvement,ai_llm_involvement,7,llm_supported_analytics,"LLM or AI used for analysis, coding, or pattern detection in research"
+ai_llm_involvement,ai_llm_involvement,8,llm_as_learning_partner,LLM is the primary collaborator or interlocutor for learners
+ai_llm_involvement,ai_llm_involvement,9,other,Does not fit any above; explain in coding_notes

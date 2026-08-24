@@ -425,6 +425,40 @@ Reports and outputs
 - `reports/categories.csv`: volume/category extract
 - `reports/volume_category_counts.png`: category counts by volume plot
 
+Recent project changes (Aug 2026)
+---------------------------------
+
+- Reclassified all `category` values from `summary_haiku` with:
+  - explicit `g` category (`CSCL theory`), and
+  - override rule: non-null `editorial` => `category = e`.
+- Recomputed six-dimension coding (primary + secondary) for all articles using
+  controlled options from `src/dimension_taxonomy.py` and persisted to the
+  canonical store.
+- Added trend outputs for 2006–2025 non-editorial analyses:
+  - yearly category and cluster line charts,
+  - yearly primary-dimension line charts,
+  - count/share trend significance tables,
+  - Mann–Kendall + Theil–Sen table,
+  - segmented-regression table,
+  - embedding drift table and chart,
+  - publication-ready summary tables.
+- Added narrative report output with appendices:
+  - `reports/ijcscl_corpus_trend_report.docx`
+
+Key new analysis scripts:
+
+- `src/reclassify_categories_from_haiku.py`
+- `src/assign_dimension_taxonomy_from_haiku.py`
+- `src/generate_year_category_trend_chart.py`
+- `src/generate_year_cluster_trend_chart.py`
+- `src/generate_dimension_primary_trend_charts.py`
+- `src/analyze_yearly_trends_significance.py`
+- `src/analyze_additional_trend_indicators.py`
+- `src/analyze_advanced_trends.py`
+- `src/build_publication_trend_summary.py`
+- `src/create_ijcscl_report_docx.py`
+- `src/append_report_appendices.py`
+
 Notes
 -----
 
