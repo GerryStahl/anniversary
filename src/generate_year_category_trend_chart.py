@@ -10,6 +10,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 from src.store import load_store
+from src.trend_filters import is_excluded_article_record
 
 
 DEFAULT_OUTPUT_CSV = Path("reports/year_category_counts_2006_2025.csv")
@@ -47,6 +48,8 @@ def main() -> None:
     categories = set()
 
     for article in store.values():
+        if is_excluded_article_record(article):
+            continue
         if not isinstance(article.year, int):
             continue
         if article.year < START_YEAR or article.year > END_YEAR:

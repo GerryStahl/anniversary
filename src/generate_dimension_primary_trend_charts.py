@@ -9,6 +9,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 from src.store import load_store
+from src.trend_filters import is_excluded_article_record
 
 
 DIMENSIONS = [
@@ -21,15 +22,21 @@ DIMENSIONS = [
 ]
 
 OUTPUT_DIR = Path("reports/dimension_primary_trends")
+START_YEAR = 2006
+END_YEAR = 2025
 
 
 def build_counts(store):
-    years = sorted({a.year for a in store.values() if isinstance(a.year, int)})
+    years = list(range(START_YEAR, END_YEAR + 1))
     counts = {dim: defaultdict(lambda: defaultdict(int)) for dim in DIMENSIONS}
     values_by_dim = {dim: set() for dim in DIMENSIONS}
 
     for article in store.values():
-        if not isinstance(article.year, int):
+        if (
+            is_excluded_article_record(article)
+            or not isinstance(article.year, int)
+            or not START_YEAR <= article.year <= END_YEAR
+        ):
             continue
         year = article.year
         for dim in DIMENSIONS:
@@ -101,7 +108,7 @@ def main() -> None:
         print(f"CSV {csv_path}")
         print(f"PNG {png_path}")
 
-    print(f"YEARS {years[0]}-{years[-1]}")
+    print(f"YEARS {START_YEAR}-{END_YEAR}")
 
 
 if __name__ == "__main__":

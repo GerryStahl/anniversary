@@ -22,6 +22,7 @@ class Article:
     summary_haiku: Optional[str] = None
     category: Optional[str] = None   # "a".."f" later
     editorial: Optional[str] = None
+    gs: Optional[str] = None
 
     # Dimension coding for trend analysis (interpretability-first, evidence-based)
     methodology_primary: Optional[str] = None

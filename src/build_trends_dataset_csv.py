@@ -3,6 +3,7 @@ import csv
 from pathlib import Path
 
 from src.store import load_store
+from src.trend_filters import is_editorial_record, is_excluded_article_record
 
 
 def editor_era_for_year(year: int | None) -> str:
@@ -25,10 +26,6 @@ def list_to_pipe(value) -> str:
     if isinstance(value, list):
         return "|".join(str(v) for v in value)
     return str(value)
-
-
-def is_editorial(article) -> bool:
-    return article.editorial == "editorial" or article.article_number == 0
 
 
 def build_trends_dataset(output_path: Path, include_editorials: bool = False) -> tuple[int, int]:
@@ -82,14 +79,16 @@ def build_trends_dataset(output_path: Path, include_editorials: bool = False) ->
                 "extends_technology",
                 "extends_theory",
                 "coding_notes",
+                "gs",
             ]
         )
 
         for article in articles:
-            article_is_editorial = is_editorial(article)
-            if article_is_editorial and not include_editorials:
+            article_is_excluded = is_excluded_article_record(article)
+            if article_is_excluded and not include_editorials:
                 excluded_editorials += 1
                 continue
+            article_is_editorial = is_editorial_record(article)
 
             writer.writerow(
                 [
@@ -124,6 +123,7 @@ def build_trends_dataset(output_path: Path, include_editorials: bool = False) ->
                     article.extends_technology if article.extends_technology is not None else "",
                     article.extends_theory if article.extends_theory is not None else "",
                     article.coding_notes or "",
+                    article.gs if article.gs is not None else "",
                 ]
             )
             written += 1
@@ -144,7 +144,7 @@ def main() -> None:
     parser.add_argument(
         "--include-editorials",
         action="store_true",
-        help="Include editorials in the output file",
+        help="Include editorials, errata, and other non-article records in the output file",
     )
     args = parser.parse_args()
 
@@ -153,7 +153,7 @@ def main() -> None:
     )
     print("CSV_PATH", args.output)
     print("ROWS_WRITTEN", rows_written)
-    print("EDITORIALS_EXCLUDED", editorials_excluded)
+    print("NON_ARTICLE_RECORDS_EXCLUDED", editorials_excluded)
 
 
 if __name__ == "__main__":

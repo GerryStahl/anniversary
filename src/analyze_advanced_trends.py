@@ -12,6 +12,7 @@ import numpy as np
 from scipy import stats
 
 from src.store import load_store
+from src.trend_filters import is_excluded_trend_row
 
 INPUT = Path("reports/trends_dataset.csv")  # non-editorials by default
 OUT_SEG = Path("reports/segmented_regression_tests.csv")
@@ -40,6 +41,8 @@ def read_rows(path: Path) -> list[dict[str, str]]:
         rows = list(csv.DictReader(f))
     out = []
     for r in rows:
+        if is_excluded_trend_row(r):
+            continue
         try:
             y = int(r.get("year", ""))
         except Exception:

@@ -71,7 +71,7 @@ doc.add_paragraph(
     "Across robust, FDR-controlled tests, two convergent longitudinal trends were identified: (1) decline in methodology_primary = ethnographic_case_study, significant in count-based, share-based, and Mann–Kendall/Theil–Sen analyses; and (2) increase in cluster_haiku_summary = 1, significant in share-based and Mann–Kendall/Theil–Sen analyses."
 )
 doc.add_paragraph(
-    "Embedding drift indicators also showed meaningful semantic movement away from the 2006 baseline centroid by 2025, suggesting corpus-level conceptual change over time even where label-level tests were less pronounced."
+    "Embedding-based measures showed only modest, non-monotonic change in the corpus's average semantic content: distance from the 2006 baseline rose slightly through 2023 but returned to earlier levels by 2025. Because no significance test was applied and yearly samples are small, this is weak, suggestive evidence at most."
 )
 
 doc.add_heading("9) Interpretation", level=1)

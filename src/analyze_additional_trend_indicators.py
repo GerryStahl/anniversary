@@ -10,6 +10,7 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 from scipy import stats
+from src.trend_filters import is_excluded_trend_row
 
 DEFAULT_INPUT = Path("reports/trends_dataset.csv")
 OUT_SHARE = Path("reports/trend_share_tests.csv")
@@ -81,6 +82,8 @@ def main() -> None:
 
     filtered = []
     for r in rows:
+        if is_excluded_trend_row(r):
+            continue
         try:
             y = int(r.get("year", ""))
         except Exception:

@@ -10,6 +10,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 from src.store import load_store
+from src.trend_filters import is_excluded_article_record
 
 
 DEFAULT_OUTPUT_CSV = Path("reports/year_cluster_counts_2006_2025.csv")
@@ -46,6 +47,8 @@ def main() -> None:
     clusters = set()
 
     for article in store.values():
+        if is_excluded_article_record(article):
+            continue
         year = article.year
         if not isinstance(year, int):
             continue

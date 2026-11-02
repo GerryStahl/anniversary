@@ -10,8 +10,11 @@ __pycache__/
 venv/
 env/
 
-# Data — raw PDFs and binary store (too large / potentially copyrighted)
+# Data — raw PDFs and binary store (too large / copyrighted by Springer: never commit)
 data/raw/
+data/raw */
+*.pdf
+*.PDF
 data/processed/ijcscl.pkl
 data/interim/
 
